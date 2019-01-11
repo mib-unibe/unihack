@@ -1,0 +1,12 @@
+dist: xenial
+install: sudo snap install hugo --channel=extended
+script: hugo
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  local_dir: public
+  on:
+    branch: gh-pages
+    condition: branch = master
