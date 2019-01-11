@@ -1,9 +1,15 @@
-<nav>
-  {{ range.Site.Menus.main }}
-    <a href="{{ .URL }}" title="{{ .Title }}">
-      {{- .Name -}} {{- with .Page -}}
-      <span class="date"> {{- dateFormat " (2006-01-02)" .Date -}} </span>
-      {{- end -}}
-  </a>
-  {{ end }}
-</nav>
+<div>
+  <nav id="navigation">
+    <ul>
+      {{ range.Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}" title="{{ .Title }}">
+          {{- .Name -}} {{- with .Page -}}
+          {{- end -}}
+        </a>
+      </li>
+    {{ end }}
+    </ul>
+  </nav>
+</div>
+

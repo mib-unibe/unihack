@@ -3,5 +3,36 @@
 
 html,
 body {
+  color: $fontColor;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
   background-color: $background;
 }
+
+// navigation
+#navigation {
+  width: 100%;
+  border-bottom: 2px solid $navigationBorderColor;
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px 1.1em;
+    li {
+      a {
+        display: block;
+        color: $fontColor;
+        transition: all 0.1s;
+        padding: 1.1em;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+a.active {
+  text-decoration: underline!important;
+} 
