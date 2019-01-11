@@ -9,7 +9,7 @@ This repository contains the website for UNIHACK 2019.
 ## Development
 
 ````
-$ hugo -D
+$ hugo server -D
 ````
 
 ## CSS
