@@ -40,7 +40,7 @@ DefaultContentLanguage = "en"
         identifier = "home"
         name = "Home"
         title = "home"
-        url = "/"
+        url = "/de/"
         weight = 1
 [[languages.de.menu.main]]
         identifier = "challenges"
