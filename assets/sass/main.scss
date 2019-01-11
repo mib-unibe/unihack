@@ -13,26 +13,44 @@ body {
 #navigation {
   width: 100%;
   border-bottom: 2px solid $navigationBorderColor;
-  ul {
-    display: flex;
-    list-style: none;
-    margin: 0px;
-    padding: 0px 1.1em;
-    li {
-      a {
-        display: block;
-        color: $fontColor;
-        transition: all 0.1s;
-        padding: 1.1em;
-        text-decoration: none;
-        &:hover{
-          text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 0.2em;
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0px;
+      padding: 0px 1.1em;
+      li {
+        a {
+          display: block;
+          color: $fontColor;
+          transition: all 0.1s;
+          padding: 1.1em;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
     }
   }
 }
 
+ul#languages {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px 1.1em;
+  li {
+    padding: 1.1em 0.2em;
+  }
+  li:not(:first-child):before {
+    content: "/";
+  }
+}
+
 a.active {
-  text-decoration: underline!important;
-} 
+  text-decoration: underline !important;
+}
