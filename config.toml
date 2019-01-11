@@ -1,4 +1,4 @@
-baseURL = "http://hack.fsmib.ch/"
+baseURL = "https://assert-true.github.io/unihack"
 languageCode = "en-us"
 title = "UniHack"
 DefaultContentLanguage = "en"
