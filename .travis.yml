@@ -8,5 +8,4 @@ deploy:
   keep-history: true
   local_dir: public
   on:
-    branch: gh-pages
-    condition: branch = master
+    branch: master
