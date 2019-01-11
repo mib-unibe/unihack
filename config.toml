@@ -1,3 +1,52 @@
 baseURL = "http://hack.fsmib.ch/"
 languageCode = "en-us"
 title = "UniHack"
+DefaultContentLanguage = "en"
+
+[languages]
+    [languages.en]
+        weight = 1
+    [languages.de]
+        weight = 2
+
+[[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+[[languages.en.menu.main]]
+        identifier = "challenges"
+        name = "Challenges"
+        url = "/challenges"
+        weight = 2
+[[languages.en.menu.main]]
+        identifier = "faq"
+        name = "FAQ"
+        url = "/faq"
+        weight = 3
+[[languages.en.menu.main]]
+        identifier = "about"
+        name = "About us"
+        url = "/about"
+        weight = 4
+
+[[languages.de.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+[[languages.de.menu.main]]
+        identifier = "challenges"
+        name = "Challenges"
+        url = "/challenges"
+        weight = 2
+[[languages.de.menu.main]]
+        identifier = "faq"
+        name = "FAQ"
+        url = "/faq"
+        weight = 3
+[[languages.de.menu.main]]
+        identifier = "about"
+        name = "Über uns"
+        url = "/about"
+        weight = 4
