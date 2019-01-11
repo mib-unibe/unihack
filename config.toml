@@ -5,8 +5,10 @@ DefaultContentLanguage = "en"
 
 [languages]
     [languages.en]
+        languageName = "en"
         weight = 1
     [languages.de]
+        languageName = "de"
         weight = 2
 
 [[languages.en.menu.main]]
