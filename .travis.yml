@@ -1,5 +1,5 @@
-language: go
-install: go get -v github.com/gohugoio/hugo
+dist: xenial
+install: snap install hugo --channel=extended
 script: hugo
 deploy:
   provider: pages
