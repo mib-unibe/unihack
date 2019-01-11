@@ -1,5 +1,5 @@
 dist: xenial
-install: snap install hugo --channel=extended
+install: sudo snap install hugo --channel=extended
 script: hugo
 deploy:
   provider: pages
