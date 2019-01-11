@@ -12,41 +12,49 @@ DefaultContentLanguage = "en"
 [[languages.en.menu.main]]
         identifier = "home"
         name = "Home"
+        title = "home"
         url = "/"
         weight = 1
 [[languages.en.menu.main]]
         identifier = "challenges"
         name = "Challenges"
+        title = "challenges"
         url = "/challenges/"
         weight = 2
 [[languages.en.menu.main]]
         identifier = "faq"
         name = "FAQ"
+        title = "faq"
         url = "/faq/"
         weight = 3
 [[languages.en.menu.main]]
         identifier = "about"
         name = "About us"
+        title = "about"
         url = "/about/"
         weight = 4
 
 [[languages.de.menu.main]]
         identifier = "home"
         name = "Home"
+        title = "home"
         url = "/"
         weight = 1
 [[languages.de.menu.main]]
         identifier = "challenges"
         name = "Challenges"
+        title = "challenges"
         url = "/de/challenges/"
         weight = 2
 [[languages.de.menu.main]]
         identifier = "faq"
         name = "FAQ"
+        title = "faq"
         url = "/de/faq/"
         weight = 3
 [[languages.de.menu.main]]
         identifier = "about"
         name = "Über uns"
+        title = "über uns"
         url = "/de/about/"
         weight = 4
