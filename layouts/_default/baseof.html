@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
+    {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   <body>
+    {{ partial "header/site-nav.html" . }}
     {{ block "main" . }} {{ end }} 
     {{ block "footer" . }} {{ end }}
   </body>
