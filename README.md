@@ -1,4 +1,4 @@
-# UNIHACK
+# UNIHACK [![Build Status](https://travis-ci.org/assert-true/unihack.svg?branch=master)](https://travis-ci.org/assert-true/unihack)
 
 This repository contains the website for UNIHACK 2019.
 
