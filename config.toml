@@ -17,17 +17,17 @@ DefaultContentLanguage = "en"
 [[languages.en.menu.main]]
         identifier = "challenges"
         name = "Challenges"
-        url = "/challenges"
+        url = "/challenges/"
         weight = 2
 [[languages.en.menu.main]]
         identifier = "faq"
         name = "FAQ"
-        url = "/faq"
+        url = "/faq/"
         weight = 3
 [[languages.en.menu.main]]
         identifier = "about"
         name = "About us"
-        url = "/about"
+        url = "/about/"
         weight = 4
 
 [[languages.de.menu.main]]
@@ -38,15 +38,15 @@ DefaultContentLanguage = "en"
 [[languages.de.menu.main]]
         identifier = "challenges"
         name = "Challenges"
-        url = "/challenges"
+        url = "/de/challenges/"
         weight = 2
 [[languages.de.menu.main]]
         identifier = "faq"
         name = "FAQ"
-        url = "/faq"
+        url = "/de/faq/"
         weight = 3
 [[languages.de.menu.main]]
         identifier = "about"
         name = "Über uns"
-        url = "/about"
+        url = "/de/about/"
         weight = 4
