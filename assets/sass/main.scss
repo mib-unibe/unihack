@@ -9,13 +9,18 @@ body {
   background-color: $background;
 }
 
+g#logo {
+  stroke: $logoColor;
+}
+
 // navigation
 #navigation {
   width: 100%;
   border-bottom: 2px solid $navigationBorderColor;
   display: flex;
   justify-content: space-between;
-  padding: 0em 0.2em;
+  align-items: center;
+  padding: 0em 0.8em;
   nav {
     ul {
       display: flex;
