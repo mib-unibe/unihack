@@ -20,6 +20,9 @@
 .Footer--fixed {
     @extend .Footer;
     position: fixed;
+    // always at the bottom
+    bottom: 0px;
+    left: 0px;
 }
 
 .Footer-LeftArea {
