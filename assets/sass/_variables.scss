@@ -1,6 +1,8 @@
 /*
  * General settings
  */
+$primaryColor: #d81159;
+
 $background: #fafafa;
 $fontColor: #555;
 $fontSize: 1em;
@@ -13,4 +15,4 @@ $strongColor: $h1Color;
 $menuBorderColor: rgba(34, 36, 38, 0.15);
 
 //TODO
-$logoColor: #d81159;
+$logoColor: $primaryColor;
