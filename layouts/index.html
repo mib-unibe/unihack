@@ -1,8 +1,14 @@
 {{ define "main" }}
+    
 <div class="Container">
-    <h1>Hello world ♥️</h1>
-    <p>We are currently working on this page.</p>
-</div>
+        <h1>Hello world ♥️</h1>
+        <p>We are currently working on this page.</p>
+    </div>
+
+    {{ $three := resources.Get "js/three.min.js" }}
+    {{ $banner := resources.Get "js/banner.js" }}
+    {{ $js := slice $three $banner | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $js.Permalink }}"></script>
 {{ end }}
 {{ define "footer" }}
     {{ partial "footer/site-footer-fixed.html" . }}
