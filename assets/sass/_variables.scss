@@ -2,6 +2,7 @@
  * General settings
  */
 $primaryColor: #d81159;
+$secondaryColor: #bfbdc1;
 
 $background: #fafafa;
 $fontColor: #555;
@@ -12,7 +13,7 @@ $h2Color: $h1Color;
 $strongColor: $h1Color;
 
 // Menu component
-$menuBorderColor: rgba(34, 36, 38, 0.15);
+$menuBorderColor: $secondaryColor;
 
 //TODO
 $logoColor: $primaryColor;
