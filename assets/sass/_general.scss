@@ -1,8 +1,24 @@
 // TODO
 html,
 body {
-  color: $fontColor;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: $fontSize;
   background-color: $background;
+}
+
+body {
+  line-height: 1.5;
+  color: $fontColor;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: $h1Color;
+}
+
+h2 {
+  color: $h2Color;
+}
+
+strong {
+  color: $strongColor;
 }
