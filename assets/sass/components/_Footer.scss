@@ -3,7 +3,6 @@
  */
 .Footer {
     // The footer is always on the bottom of the site.
-    position: absolute;
     bottom: 0%;
     left: 0%;
 
@@ -17,6 +16,10 @@
     display: grid;
     grid-template: 
         [row1-start] "left center right" 3fr;
+}
+
+.Footer--fixed {
+    position: fixed;
 }
 
 .Footer-LeftArea {

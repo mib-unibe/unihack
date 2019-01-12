@@ -9,7 +9,7 @@
   </head>
   <body>
     {{ partial "header/site-nav.html" . }}
-    {{ block "main" . }} {{ end }} 
-    {{ partial "footer/site-footer.html" . }}
+    {{ block "main" . }} {{ end }}
+    {{ block "footer" . }}{{ end }}
   </body>
 </html>

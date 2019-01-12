@@ -1,3 +1,6 @@
+---
+fixedFooter: true
+---
 ## Where is it?
 The hackathon will take place at the University of Bern. The room and building will be announced later.
 
