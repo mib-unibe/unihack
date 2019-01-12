@@ -1,3 +1,7 @@
+---
+fixedFooter: true
+---
+# FAQ
 ## Where is it?
 The hackathon will take place at the University of Bern. The room and building will be announced later.
 
@@ -5,4 +9,4 @@ The hackathon will take place at the University of Bern. The room and building w
 Our hackathon is open for everyone with all degrees of skill.
 
 ## When is it?
-The hackathon starts in the *afternoon* on 15.4.2019.
+The hackathon starts in the **afternoon** on 15.4.2019.

@@ -1,0 +1,17 @@
+/*
+ * Logo
+ * 
+ * This component styles the Logo(partials/logo.html).
+ */
+g.Logo {
+  stroke: $logoColor;
+}
+
+/*
+ * LogoLink
+ * 
+ * This component can be used to wrap the component into an anchor tag.
+ */
+a.LogoLink {
+  line-height: 0px;
+}

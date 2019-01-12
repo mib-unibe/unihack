@@ -2,13 +2,6 @@
  * Footer component
  */
 .Footer {
-    // The footer is always on the bottom of the site.
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-
-    box-sizing: border-box; // Fix width and padding
-
     width: 100%;
     border-top: 2px solid $menuBorderColor;
     padding: 0em 0.8em;
@@ -17,6 +10,19 @@
     display: grid;
     grid-template: 
         [row1-start] "left center right" 3fr;
+}
+
+/*
+ * Footer--fixed component
+ * 
+ * This component can be used as a footer, fixed to the bottom of a page.
+ */
+.Footer--fixed {
+    @extend .Footer;
+    position: fixed;
+    // always at the bottom
+    bottom: 0px;
+    left: 0px;
 }
 
 .Footer-LeftArea {

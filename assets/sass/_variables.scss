@@ -1,12 +1,19 @@
 /*
  * General settings
  */
-$background: #FAFAFA;
-$fontColor: #000;
-$fontSize: 1.1em;
+$primaryColor: #d81159;
+$secondaryColor: #bfbdc1;
+
+$background: #fafafa;
+$fontColor: #555;
+$fontSize: 1em;
+
+$h1Color: #333;
+$h2Color: $h1Color;
+$strongColor: $h1Color;
 
 // Menu component
-$menuBorderColor: rgba(34,36,38,.15);
+$menuBorderColor: $secondaryColor;
 
 //TODO
-$logoColor: #D81159;
+$logoColor: $primaryColor;

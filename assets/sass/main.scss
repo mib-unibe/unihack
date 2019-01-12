@@ -1,20 +1,11 @@
-@import "variables";
 @import "normalize";
 
+@import "variables";
+
+@import "general";
+
+@import "components/Logo";
+@import "components/Container";
 @import "components/Footer";
 @import "components/Menu";
 @import "components/LanguageSwitcher";
-
-// TODO
-html,
-body {
-  color: $fontColor;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: $fontSize;
-  background-color: $background;
-}
-
-// TODO
-g#logo {
-  stroke: $logoColor;
-}
