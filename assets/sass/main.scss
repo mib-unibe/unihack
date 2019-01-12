@@ -2,6 +2,8 @@
 @import "normalize";
 
 @import "components/Footer";
+@import "components/Menu";
+@import "components/LanguageSwitcher";
 
 // TODO
 html,
@@ -15,68 +17,4 @@ body {
 // TODO
 g#logo {
   stroke: $logoColor;
-}
-
-/**
- * Menu component
- */
-.Menu {
-  // General
-  width: 100%;
-  border-bottom: 2px solid $menuBorderColor;
-  padding: 0em 0.8em;
-  box-sizing: border-box; // Fix width and padding
-  // Flexbox
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/*
- * Menu-Item component.
- * 
- * Can be used within a Menu or a MenuGroup.
- */
-a.Menu-MenuItem {
-  display: block;
-  color: $fontColor;
-  transition: all 0.1s;
-  padding: 1.1em;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-/*
- * Menu-MenuItemGroup
- *
- * Can be used to group MenuItems.
- */
-.Menu-MenuItemGroup {
-  // Flexbox
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/*
- * LanguageSwitcher
- *
- * This component is used for displaying a horizontal list with "/" as a separator.
- */
-ul.LanguageSwitcher {
-  display: flex;
-  list-style: none;
-  margin: 0px;
-  padding: 0px 1.1em;
-  
-  li {
-    padding: 1.1em 0.2em;
-  }
-
-  // Ensure that the first list-item does not have a "/".
-  li:not(:first-child):before {
-    content: "/";
-  }
 }
