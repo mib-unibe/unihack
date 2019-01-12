@@ -6,8 +6,9 @@
     </div>
 
     {{ $three := resources.Get "js/three.min.js" }}
+    {{ $objLoader := resources.Get "js/OBJLoader.js" }}
     {{ $banner := resources.Get "js/banner.js" }}
-    {{ $js := slice $three $banner | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint }}
+    {{ $js := slice $three $objLoader $banner | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint }}
     <script src="{{ $js.Permalink }}"></script>
 {{ end }}
 {{ define "footer" }}
