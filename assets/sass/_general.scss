@@ -1,4 +1,7 @@
-// TODO
+* {
+  box-sizing: border-box; // Fix width and padding
+}
+
 html,
 body {
   font-size: $fontSize;
