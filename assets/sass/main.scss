@@ -3,6 +3,7 @@
 
 @import "components/Footer";
 @import "components/Menu";
+@import "components/LanguageSwitcher";
 
 // TODO
 html,
@@ -16,25 +17,4 @@ body {
 // TODO
 g#logo {
   stroke: $logoColor;
-}
-
-/*
- * LanguageSwitcher
- *
- * This component is used for displaying a horizontal list with "/" as a separator.
- */
-ul.LanguageSwitcher {
-  display: flex;
-  list-style: none;
-  margin: 0px;
-  padding: 0px 1.1em;
-  
-  li {
-    padding: 1.1em 0.2em;
-  }
-
-  // Ensure that the first list-item does not have a "/".
-  li:not(:first-child):before {
-    content: "/";
-  }
 }
