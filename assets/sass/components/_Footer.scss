@@ -18,7 +18,13 @@
         [row1-start] "left center right" 3fr;
 }
 
+/*
+ * Footer--fixed component
+ * 
+ * This component can be used as a footer, fixed to the bottom of a page.
+ */
 .Footer--fixed {
+    @extend .Footer;
     position: fixed;
 }
 
