@@ -6,10 +6,6 @@ let computedStyle = window.getComputedStyle(bannerCanvas);
 let width = parseInt(computedStyle.width.replace("px", ""));
 let height = parseInt(computedStyle.height.replace("px", ""));
 
-
-
-console.log(width, height);
-
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
 
@@ -38,7 +34,7 @@ const entities = new Array(20).fill(0).map(_ => ({
   x: Math.random() * 100 - 50,
   y: 20,
   z: -20 + Math.floor(Math.random() * 4) - 2,
-  vY: (Math.random() * 2) / 10,
+  vY: 0.05 + (Math.random() * 2) / 10,
   rX: Math.random() / 100,
   rY: Math.random() / 100
 }));
