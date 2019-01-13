@@ -26,9 +26,10 @@ let renderer = new THREE.WebGLRenderer({
   antialias: true
 });
 renderer.setSize(width, height);
+// set correct, global background to appear transparent
 renderer.setClearColor(0xfafafa, 1);
 
-var pointLight = new THREE.PointLight(0x0, 0.9);
+var pointLight = new THREE.PointLight(0x000);
 camera.add(pointLight);
 
 let loader = new THREE.OBJLoader();
@@ -37,12 +38,18 @@ let gravity = new THREE.Vector3(0, 0, 0);
 
 const objects = new Array();
 const entities = new Array(42).fill(0).map(_ => ({
-  x: Math.random() * 100 - 50,
-  y: 20,
+  x: Math.random() * camera.getFilmWidth() * 2 - camera.getFilmWidth(),
+  y: camera.getFilmHeight() * 1 + Math.floor(Math.random() * 5),
   z: -20 + Math.floor(Math.random() * 4) - 2,
-  v: new THREE.Vector3(0, -(0.05 + (Math.random() * 2) / 10), 0),
+  // TODO calculate velocity
+  v: new THREE.Vector3(
+    0,
+    -(1 / 100 + (Math.random() * 2) / 10),
+    0
+  ),
+  // TODO calculate rotation
   rX: Math.random() / 100,
-  rY: Math.random() / 100
+  rY: Math.random() / 120
 }));
 
 if (window.DeviceMotionEvent) {
@@ -53,23 +60,37 @@ if (window.DeviceMotionEvent) {
 
       if (orientation === "portrait-primary" || orientation === 0) {
         gravity = new THREE.Vector3(
-          event.accelerationIncludingGravity.x / 75,
-          event.accelerationIncludingGravity.y / 75,
+          event.accelerationIncludingGravity.x,
+          event.accelerationIncludingGravity.y,
           0
         );
       }
 
       if (orientation === "landscape-primary" || orientation === 90) {
-        //TODO
+        gravity = new THREE.Vector3(
+          -event.accelerationIncludingGravity.y,
+          event.accelerationIncludingGravity.x,
+          0
+        );
       }
 
       if (orientation === "landscape-secondary" || orientation === -90) {
-        //TODO
+        gravity = new THREE.Vector3(
+          event.accelerationIncludingGravity.y,
+          -event.accelerationIncludingGravity.x,
+          0
+        );
       }
 
       if (orientation === "portrait-secondary" || orientation === 180) {
-        //TODO
+        gravity = new THREE.Vector3(
+          event.accelerationIncludingGravity.y,
+          event.accelerationIncludingGravity.x,
+          0
+        );
       }
+
+      gravity.divideScalar(75);
     },
     false
   );
@@ -115,14 +136,10 @@ loader.load(
       obj.updateMatrix();
       objects.push(obj);
     }
-
-    //object.updateMatrix();
   },
-  // called when loading is in progresses
   function(xhr) {
     //console.log((xhr.loaded / xhr.total) * 100 + "% loaded");
   },
-  // called when loading has errors
   function(error) {
     console.error("An error happened");
   }
@@ -139,9 +156,10 @@ function loop() {
     obj.rotation.y = e.rY;
     obj.position.add(e.v).add(gravity);
 
-    if (obj.position.y <= -20) {
-      obj.position.x = Math.random() * 100 - 50;
-      obj.position.y = 20;
+    if (obj.position.y < -20) {
+      obj.position.x =
+        Math.random() * camera.getFilmWidth() * 2 - camera.getFilmWidth();
+      obj.position.y = camera.getFilmHeight() * 3;
     }
   }
 

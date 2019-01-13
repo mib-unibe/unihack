@@ -20,3 +20,11 @@ CSS is developed using the following methodolgy and naming scheme:
 * [Naming scheme: SUIT](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md)
 
 All css can be found in */assets/sass*.
+
+## Mobile Development
+
+To access the page in a local network:
+
+````
+hugo server --bind=0.0.0.0 --baseURL=<http://your-ip> -D
+````
