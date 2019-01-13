@@ -6,12 +6,25 @@ let computedStyle = window.getComputedStyle(bannerCanvas);
 let width = parseInt(computedStyle.width.replace("px", ""));
 let height = parseInt(computedStyle.height.replace("px", ""));
 
+
+
 console.log(width, height);
 
 let scene = new THREE.Scene();
-let camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
+let camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
 
-let renderer = new THREE.WebGLRenderer({ canvas: bannerCanvas, antialias: true });
+window.addEventListener("resize", () => {
+  width = parseInt(computedStyle.width.replace("px", ""));
+  height = parseInt(computedStyle.height.replace("px", ""));
+  camera.aspect = width / height;
+  camera.updateProjectionMatrix();
+  renderer.setSize(width, height);
+}, false);
+
+let renderer = new THREE.WebGLRenderer({
+  canvas: bannerCanvas,
+  antialias: true
+});
 renderer.setSize(width, height);
 renderer.setClearColor(0xfafafa, 1);
 
