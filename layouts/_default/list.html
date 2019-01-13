@@ -1,0 +1,12 @@
+{{define "main"}}
+    <div class="Container">
+        {{ .Content }}
+    </div>
+{{ end }}
+{{ define "footer" }}
+    {{ if $.Page.Params.fixedFooter }}
+        {{ partial "footer/site-footer-fixed.html" . }}
+    {{ else }}
+        {{ partial "footer/site-footer.html" . }}
+    {{ end }}
+{{ end }}
