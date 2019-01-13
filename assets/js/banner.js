@@ -1,5 +1,3 @@
-console.log("Hello world");
-
 let bannerCanvas = document.getElementById("banner");
 let computedStyle = window.getComputedStyle(bannerCanvas);
 
@@ -61,18 +59,17 @@ if (window.DeviceMotionEvent) {
         );
       }
 
-      if (orientation === 'landscape-primary' || orientation === 90) {
+      if (orientation === "landscape-primary" || orientation === 90) {
         //TODO
       }
 
-      if (orientation === 'landscape-secondary' || orientation === -90) {
+      if (orientation === "landscape-secondary" || orientation === -90) {
         //TODO
       }
 
-      if (orientation === 'portrait-secondary' || orientation === 180) {
+      if (orientation === "portrait-secondary" || orientation === 180) {
         //TODO
       }
-
     },
     false
   );
