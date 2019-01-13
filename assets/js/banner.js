@@ -45,19 +45,19 @@ const entities = new Array(42).fill(0).map(_ => ({
   rY: Math.random() / 100
 }));
 
-/*if (window.DeviceMotionEvent) {
-  window.addEventListener("devicemotion", motion, false);
-} else {
-  console.log("DeviceMotionEvent is not supported");
-}
-
-function motion(event){
-  console.log("Accelerometer: "
-    + event.accelerationIncludingGravity.x + ", "
-    + event.accelerationIncludingGravity.y + ", "
-    + event.accelerationIncludingGravity.z
+if (window.DeviceMotionEvent) {
+  window.addEventListener(
+    "devicemotion",
+    event => {
+      gravity = new THREE.Vector3(
+        event.accelerationIncludingGravity.x,
+        event.accelerationIncludingGravity.y,
+        event.accelerationIncludingGravity.z
+      );
+    },
+    false
   );
-}*/
+}
 
 loader.load(
   // resource URL
