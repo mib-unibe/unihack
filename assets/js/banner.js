@@ -64,7 +64,7 @@ if (window.DeviceMotionEvent) {
       if (orientation === 'landscape-primary' || orientation === 90) {
         gravity = new THREE.Vector3(
           event.accelerationIncludingGravity.y / 75,
-          event.accelerationIncludingGravity.x / 75,
+          -event.accelerationIncludingGravity.x / 75,
           0
         );
       }
