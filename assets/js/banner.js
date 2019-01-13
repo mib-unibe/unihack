@@ -12,7 +12,7 @@ let camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
 window.addEventListener(
   "resize",
   e => {
-    width = parseInt(computedStyle.width.replace("px", ""));
+    width = window.innerWidth;
     height = parseInt(computedStyle.height.replace("px", ""));
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
@@ -62,7 +62,7 @@ if (window.DeviceMotionEvent) {
 window.addEventListener(
   "orientationchange",
   function() {
-    width = parseInt(computedStyle.width.replace("px", ""));
+    width = window.innerWidth;
     height = parseInt(computedStyle.height.replace("px", ""));
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
@@ -73,8 +73,8 @@ window.addEventListener(
 
 window.addEventListener(
   "deviceorientation",
-  function() {
-    width = parseInt(computedStyle.width.replace("px", ""));
+  () => {
+    width = window.innerWidth;
     height = parseInt(computedStyle.height.replace("px", ""));
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
