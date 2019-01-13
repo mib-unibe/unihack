@@ -53,23 +53,37 @@ if (window.DeviceMotionEvent) {
 
       if (orientation === "portrait-primary" || orientation === 0) {
         gravity = new THREE.Vector3(
-          event.accelerationIncludingGravity.x / 75,
-          event.accelerationIncludingGravity.y / 75,
+          event.accelerationIncludingGravity.x,
+          event.accelerationIncludingGravity.y,
           0
         );
       }
 
       if (orientation === "landscape-primary" || orientation === 90) {
-        //TODO
+        gravity = new THREE.Vector3(
+          -event.accelerationIncludingGravity.y,
+          event.accelerationIncludingGravity.x,
+          0
+        );
       }
 
       if (orientation === "landscape-secondary" || orientation === -90) {
-        //TODO
+        gravity = new THREE.Vector3(
+          event.accelerationIncludingGravity.y,
+          -event.accelerationIncludingGravity.x,
+          0
+        );
       }
 
       if (orientation === "portrait-secondary" || orientation === 180) {
-        //TODO
+        gravity = new THREE.Vector3(
+          event.accelerationIncludingGravity.y,
+          event.accelerationIncludingGravity.x,
+          0
+        );
       }
+
+      gravity.divideScalar(75);
     },
     false
   );
