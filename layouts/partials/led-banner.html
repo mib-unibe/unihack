@@ -1,3 +1,8 @@
-<div style="width:100%;height:20em;background:#FF00FF">
-  <canvas id="banner" style="width: 100%; height: 100%;"></canvas>
+<div class="LEDBanner">
+  <canvas id="banner" class="LEDBanner-Canvas"></canvas>
 </div>
+{{ $three := resources.Get "js/three.min.js" }}
+{{ $objLoader := resources.Get "js/OBJLoader.js" }}
+{{ $banner := resources.Get "js/banner.js" }}
+{{ $js := slice $three $objLoader $banner | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.Permalink }}"></script>
