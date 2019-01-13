@@ -3,7 +3,7 @@ console.log("Hello world");
 let bannerCanvas = document.getElementById("banner");
 let computedStyle = window.getComputedStyle(bannerCanvas);
 
-let width = parseInt(computedStyle.width.replace("px", ""));
+let width = window.innerWidth;
 let height = parseInt(computedStyle.height.replace("px", ""));
 
 let scene = new THREE.Scene();
