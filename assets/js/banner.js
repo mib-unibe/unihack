@@ -71,6 +71,18 @@ window.addEventListener(
   false
 );
 
+window.addEventListener(
+  "deviceorientation",
+  function() {
+    width = parseInt(computedStyle.width.replace("px", ""));
+    height = parseInt(computedStyle.height.replace("px", ""));
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+    renderer.setSize(width, height);
+  },
+  false
+);
+
 loader.load(
   // resource URL
   "LED.obj",
