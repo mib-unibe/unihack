@@ -9,13 +9,17 @@ let height = parseInt(computedStyle.height.replace("px", ""));
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
 
-window.addEventListener("resize", () => {
-  width = parseInt(computedStyle.width.replace("px", ""));
-  height = parseInt(computedStyle.height.replace("px", ""));
-  camera.aspect = width / height;
-  camera.updateProjectionMatrix();
-  renderer.setSize(width, height);
-}, false);
+window.addEventListener(
+  "resize",
+  e => {
+    width = parseInt(computedStyle.width.replace("px", ""));
+    height = parseInt(computedStyle.height.replace("px", ""));
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+    renderer.setSize(width, height);
+  },
+  false
+);
 
 let renderer = new THREE.WebGLRenderer({
   canvas: bannerCanvas,
@@ -29,12 +33,14 @@ camera.add(pointLight);
 
 let loader = new THREE.OBJLoader();
 
+let gravity = new THREE.Vector3(0, 0, 0);
+
 const objects = new Array();
-const entities = new Array(20).fill(0).map(_ => ({
+const entities = new Array(42).fill(0).map(_ => ({
   x: Math.random() * 100 - 50,
   y: 20,
   z: -20 + Math.floor(Math.random() * 4) - 2,
-  vY: 0.05 + (Math.random() * 2) / 10,
+  v: new THREE.Vector3(0, -(0.05 + (Math.random() * 2) / 10), 0),
   rX: Math.random() / 100,
   rY: Math.random() / 100
 }));
@@ -91,8 +97,7 @@ function loop() {
 
     obj.rotation.x += e.rX;
     obj.rotation.y = e.rY;
-    obj.position.y -= e.vY;
-    obj.position.z = -20;
+    obj.position.add(e.v).add(gravity);
 
     if (obj.position.y <= -20) {
       obj.position.x = Math.random() * 100 - 50;
