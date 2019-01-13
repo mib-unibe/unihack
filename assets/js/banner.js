@@ -52,7 +52,7 @@ if (window.DeviceMotionEvent) {
       gravity = new THREE.Vector3(
         event.accelerationIncludingGravity.x,
         event.accelerationIncludingGravity.y,
-        event.accelerationIncludingGravity.z
+        0
       );
     },
     false
