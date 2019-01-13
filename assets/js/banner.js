@@ -101,7 +101,7 @@ window.addEventListener(
 
 loader.load(
   // resource URL
-  "LED.obj",
+  "/LED.obj",
   // called when resource is loaded
   function(object) {
     for (let i = 0; i < entities.length; i++) {
