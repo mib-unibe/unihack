@@ -50,8 +50,8 @@ if (window.DeviceMotionEvent) {
     "devicemotion",
     event => {
       gravity = new THREE.Vector3(
-        event.accelerationIncludingGravity.x,
-        event.accelerationIncludingGravity.y,
+        event.accelerationIncludingGravity.x / 100,
+        event.accelerationIncludingGravity.y / 100,
         0
       );
     },
