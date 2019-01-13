@@ -9,6 +9,8 @@ let height = parseInt(computedStyle.height.replace("px", ""));
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
 
+const getOrientation = () => screen.orientation || window.orientation;
+
 window.addEventListener(
   "resize",
   e => {
@@ -49,11 +51,32 @@ if (window.DeviceMotionEvent) {
   window.addEventListener(
     "devicemotion",
     event => {
-      gravity = new THREE.Vector3(
-        event.accelerationIncludingGravity.x / 75,
-        event.accelerationIncludingGravity.y / 75,
-        0
-      );
+      const orientation = getOrientation();
+
+      if (orientation === "portrait-primary" || orientation === 0) {
+        gravity = new THREE.Vector3(
+          event.accelerationIncludingGravity.x / 75,
+          event.accelerationIncludingGravity.y / 75,
+          0
+        );
+      }
+
+      if (orientation === 'landscape-primary' || orientation === 90) {
+        gravity = new THREE.Vector3(
+          event.accelerationIncludingGravity.y / 75,
+          event.accelerationIncludingGravity.x / 75,
+          0
+        );
+      }
+
+      if (orientation === 'landscape-secondary' || orientation === -90) {
+
+      }
+
+      if (orientation === 'portrait-secondary' || orientation === 180) {
+
+      }
+
     },
     false
   );
