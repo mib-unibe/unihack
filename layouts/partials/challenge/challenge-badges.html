@@ -1,13 +1,13 @@
 <ul class="ChallengeBadgeList">
   {{ range.Params.levels }}
     {{ if eq . "Beginner" }}
-        <li class="ChallengeBadgeList-Element--Beginner">{{ . }}</li>
+        <li class="ChallengeBadgeList-Element--Beginner">{{ i18n "beginner" }}</li>
     {{ end }}
     {{ if eq . "Intermediate" }}
-        <li class="ChallengeBadgeList-Element--Intermediate">{{ . }}</li>
+        <li class="ChallengeBadgeList-Element--Intermediate">{{ i18n "intermediate" }}</li>
     {{ end }}
     {{ if eq . "Advanced" }}
-        <li class="ChallengeBadgeList-Element--Advanced">{{ . }}</li>
+        <li class="ChallengeBadgeList-Element--Advanced">{{ i18n "advanced" }}</li>
     {{ end }}
   {{ end }}
 </ul>
