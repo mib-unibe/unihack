@@ -5,7 +5,7 @@ levels:
     - Intermediate
 hardware:
     - SF-PiCar-V
-    - Sensors of choice
+    - Sensors of your choice
 ---
 This Task is structured in 3 main tasks which will be documented and guided:
 

@@ -6,7 +6,7 @@ levels:
     - Advanced
 hardware:
     - SF-PiCar-V
-    - Sensoren nach deiner Wahl
+    - Sensoren deiner Wahl
 ---
 Raspberry Pis und Arduinos sollen zusammen mit einer Auswahl an Sensoren zur Verfügung
 stehen. Die Teilnehmenden können so an ihrem eigenen Projekt arbeiten oder ein Projekt aus
