@@ -1,0 +1,35 @@
+ul.ChallengeBadgeList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.ChallengeBadgeList > :first-child {
+  margin-left: 0em!important;
+}
+
+@mixin badgify($color, $background) {
+  color: $color;
+  background: $background;
+
+  font-size: 0.8em;
+  line-height: 0.8em;
+
+  padding: 0.4em;
+  margin: 0em 0.2em;
+  border: $background 1px solid;
+  border-radius: 2px;
+}
+
+li.ChallengeBadgeList-Element--Beginner {
+  @include badgify($beginnerBadgeFontColor, $beginnerBadgeBackground);
+}
+
+li.ChallengeBadgeList-Element--Intermediate {
+  @include badgify($intermediateBadgeFontColor, $intermediateBadgeBackground);
+}
+
+li.ChallengeBadgeList-Element--Advanced {
+  @include badgify($advancedBadgeFontColor, $advancedBadgeBackground);
+}

@@ -1,5 +1,13 @@
-<ul>
-  {{ range.Params.expertise }}
-  <li>{{ . }}</li>
+<ul class="ChallengeBadgeList">
+  {{ range.Params.levels }}
+    {{ if eq . "Beginner" }}
+        <li class="ChallengeBadgeList-Element--Beginner">{{ . }}</li>
+    {{ end }}
+    {{ if eq . "Intermediate" }}
+        <li class="ChallengeBadgeList-Element--Intermediate">{{ . }}</li>
+    {{ end }}
+    {{ if eq . "Advanced" }}
+        <li class="ChallengeBadgeList-Element--Advanced">{{ . }}</li>
+    {{ end }}
   {{ end }}
 </ul>
