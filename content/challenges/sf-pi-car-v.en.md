@@ -1,7 +1,6 @@
 ---
 title: "SF-PICar-V Computer Vision with SimpleCV"
 levels:
-    - Beginner
     - Intermediate
     - Advanced
 hardware:
