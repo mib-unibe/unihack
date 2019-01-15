@@ -1,14 +1,8 @@
 {{ define "main" }}
     <div class="Container">
         {{ range .Paginator.Pages }}
-            <section>
-                <h2>
-                    {{.Title}}
-                </h2>
-                <p>
-                    {{ .Content }}
-                </p>
-            </section>
+            {{ partial "challenge/challenge-section" . }}
+            
           {{ end }}
     </div>
 {{ end }}
