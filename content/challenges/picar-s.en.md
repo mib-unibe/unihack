@@ -15,5 +15,3 @@ This Task is structured in 3 main tasks which will be documented and guided:
 
 Having implemented those essential libraries for your bot you are free to implement
 additional features using either software or hardware to make your car smart.
-
-## 
