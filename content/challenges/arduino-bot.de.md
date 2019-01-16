@@ -1,11 +1,11 @@
 ---
-title: "Arduino Bot"
+title: Arduino Bot Test
 levels:
-    - Beginner
-    - Intermediate
+  - Beginner
+  - Intermediate
 hardware:
-    - SF-PiCar-V
-    - Sensoren deiner Wahl
+  - SF-PiCar-V
+  - Sensoren deiner Wahl
 ---
 Diese Challenge ist in 3 Tasks aufgeteilt:
 
