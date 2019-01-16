@@ -1,0 +1,8 @@
+[beginner]
+other = "Beginner"
+
+[intermediate]
+other = "Intermediate"
+
+[advanced]
+other = "Advanced"

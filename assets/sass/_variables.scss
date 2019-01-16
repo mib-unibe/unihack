@@ -15,5 +15,16 @@ $strongColor: $h1Color;
 // Menu component
 $menuBorderColor: $secondaryColor;
 
+// Badges
+//$beginnerBadgeBackground: #3ddc97;
+$beginnerBadgeBackground: #1b998b;
+$beginnerBadgeFontColor: darken(white, 5%);
+
+$intermediateBadgeBackground: #115990;
+$intermediateBadgeFontColor: darken(white, 5%);
+
+$advancedBadgeBackground: #d81159;
+$advancedBadgeFontColor: darken(white, 5%);
+
 //TODO
 $logoColor: $primaryColor;

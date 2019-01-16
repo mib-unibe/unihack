@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <div class="Container">
+        {{ range .Paginator.Pages }}
+            {{ partial "challenge/challenge-section" . }}
+            
+          {{ end }}
+    </div>
+{{ end }}
+{{ define "footer" }}
+    {{ partial "footer/site-footer.html" . }}
+{{ end }}
