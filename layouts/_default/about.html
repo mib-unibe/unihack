@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="Container">
+    {{ range .Paginator.Pages }}
+        {{ if not .Params.member}}
+            {{ partial "about/about-us" . }}
+        {{ end }}
+    {{ end }}
+</div>
+<div class="Container">
+    {{ range .Paginator.Pages }}
+        {{ if .Params.member}}
+            {{ partial "about/member-section" . }}
+        {{ end }}
+    {{ end }}
+</div>
+{{ end }}
+{{ define "footer" }}
+{{ partial "footer/site-footer-unfixed.html" . }}
+{{ end }}

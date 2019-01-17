@@ -1,6 +1,6 @@
 ---
-title:
+title: Fabio Bertagna
+member: true
 roles:
-    - Role 1
-    - Role 2
+    - Hardware und Challenges
 ---
