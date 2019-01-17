@@ -1,6 +1,8 @@
-<section class="AboutMember">
-  <header>
-    <h2>{{ .Title }}</h2>
+
+<section class="MemberSection">
+  <header class="MemberSection-Header">
+    <h2 class="MemberSection-Title">{{ .Title }}</h2>
+    {{ partial "about/member-role" . }}
   </header>
   <div class="block-group">
     <div class="Column-50">
