@@ -3,6 +3,5 @@ title: Fabio Bertagna
 member: true
 roles:
     - Hardware und Challenges
+email: fabio.bertagna@fsmib.ch
 ---
-
-Jede cha mache was er will, will jede staht drzue was er macht.
