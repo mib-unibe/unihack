@@ -2,6 +2,9 @@
 title: Patrick Hodel
 member: true
 roles:
-    - Role 1
-    - Role 2
+    - Communication
+    - Master student in Computer Science
+    - President MIB
+email: patrick.hodel@fsmib.ch
+image: patrick-test.png
 ---
