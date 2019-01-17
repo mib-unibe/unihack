@@ -24,10 +24,10 @@ DefaultContentLanguage = "en"
         url = "/challenges/"
         weight = 2
 [[languages.en.menu.main]]
-        identifier = "faq"
-        name = "FAQ"
-        title = "faq"
-        url = "/faq/"
+        identifier = "sponsors"
+        name = "Sponsors"
+        title = "sponsors"
+        url = "/sponsors/"
         weight = 3
 [[languages.en.menu.main]]
         identifier = "about"
@@ -49,10 +49,10 @@ DefaultContentLanguage = "en"
         url = "/de/challenges/"
         weight = 2
 [[languages.de.menu.main]]
-        identifier = "faq"
-        name = "FAQ"
-        title = "faq"
-        url = "/de/faq/"
+        identifier = "sponsors"
+        name = "Sponsoren"
+        title = "sponsoren"
+        url = "/de/sponsors/"
         weight = 3
 [[languages.de.menu.main]]
         identifier = "about"
