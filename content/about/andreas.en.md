@@ -2,7 +2,7 @@
 title: Andreas Gsponer
 member: true
 roles:
-    - Role 1
-    - Role 2
-email: vorname.nachname@fsmib.ch
+    - Challenges and Marketing
+    - Bachelor student in physics
+email: andreas.gsponer@fsmib.ch
 ---
