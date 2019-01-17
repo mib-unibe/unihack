@@ -1,4 +1,4 @@
-# UNIHACK [![Build Status](https://travis-ci.org/assert-true/unihack.svg?branch=master)](https://travis-ci.org/assert-true/unihack)
+# UniHack [![Build Status](https://travis-ci.org/mib-unibe/unihack.svg?branch=master)](https://travis-ci.org/mib-unibe/unihack)
 
 This repository contains the website for UNIHACK 2019.
 
@@ -19,7 +19,7 @@ CSS is developed using the following methodolgy and naming scheme:
 * [Methodology: BEM](http://getbem.com/introduction/)
 * [Naming scheme: SUIT](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md)
 
-All css can be found in */assets/sass*.
+All CSS can be found in */assets/sass*.
 
 ## Mobile Development
 
