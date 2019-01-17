@@ -1,0 +1,22 @@
+ul.RoleList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.RoleList > :first-child {
+  margin-left: 0!important;
+}
+
+li.RoleList-Element{
+
+  font-size: 1em;
+  line-height: 0.8em;
+
+  padding: 0.4em;
+  margin: 0 0.2em;
+  border-radius: 2px;
+}
+
+
