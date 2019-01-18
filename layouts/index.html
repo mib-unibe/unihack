@@ -1,12 +1,7 @@
 {{ define "main" }}
 <main role="main">
   <section class="Banner Page--Banner">
-      <nav>
-          <div class="Menu">
-                {{ partial "logo.html" . }}
-                {{ partial "hamburger.html" . }}
-          </div>
-      </nav>
+      {{ partial "header/site-nav.html" . }}
   </section>
   <section class="Container Page">
     <p>Der Hackathon von Studierenden für Studierende</p>
