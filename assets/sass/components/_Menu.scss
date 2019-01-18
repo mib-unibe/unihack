@@ -4,7 +4,6 @@
  .Menu {
     // General
     width: 100%;
-    border-bottom: 2px solid $menuBorderColor;
     padding: 0em 0.8em;
     // Flexbox
     display: flex;
@@ -19,7 +18,7 @@
    */
   a.Menu-MenuItem {
     display: block;
-    color: $fontColor;
+    color: white; //TODO variable
     transition: all 0.1s;
     padding: 1.1em;
     text-decoration: none;
