@@ -1,0 +1,23 @@
+// TODO seperate file
+.MenuOverlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  z-index: 4;
+
+  transition: opacity;
+  transition-duration: 0.3s;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-image: linear-gradient($jumperViolet, $jumperYellow);
+}
+
+.Hamburger-Checkbox:checked ~ .MenuOverlay {
+  opacity: 1;
+}
