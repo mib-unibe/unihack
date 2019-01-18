@@ -2,6 +2,12 @@
 title: About us
 ---
 
-Wir sind ein super team
+Wir sind 4 motivierte Studenten mit grossem Interesse an Programmieren, Experimentieren und Hackathons.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Wir wollen
+
+- Ein kreatives Umfeld für interessante und innovative Ideen bieten.
+
+- Studenten neue Kontakte in verschiedenen Semster zun knüpfen ermöglichen.
+
+- Die Sichtbarkeit und das Interesse an dem Informatikstudiengang der Universität Bern erhöhen.

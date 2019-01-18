@@ -2,6 +2,12 @@
 title: About us
 ---
 
-We are a cool team
+We are 4 motivated students with interests in programming, experimenting and hackathons.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We want to :
+
+- Provide a creative enviroment for interesting and innovative ideas.
+
+- Connect students from different semsters and studies.
+
+- Raise the visibility of the informatics studies at the University of Bern.
