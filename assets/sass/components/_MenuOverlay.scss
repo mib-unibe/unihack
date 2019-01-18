@@ -1,6 +1,7 @@
 // TODO seperate file
 .MenuOverlay {
   position: fixed;
+  display: none;
   width: 100vw;
   height: 100vh;
 
@@ -38,6 +39,7 @@
 }
 
 .Hamburger-Checkbox:checked ~ .MenuOverlay {
+  display: flex;
   opacity: 1;
   animation: GadientAnimation 10s ease infinite;
 }
