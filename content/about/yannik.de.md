@@ -2,8 +2,8 @@
 title: Yannik Daellenbach
 member: true
 roles:
-    - Role 1
-    - Role 2
+    - Marketing und IT
+    - Bachelorstudent Informatik
 email: vorname.nachname@fsmib.ch
 image: yannik_rect.png
 ---

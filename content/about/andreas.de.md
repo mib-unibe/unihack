@@ -3,7 +3,7 @@ title: Andreas Gsponer
 member: true
 roles:
     - Challenges und Marketing
-    - Bachelor Student Physik
+    - Bachelorstudent Physik
 email: andreas.gsponer@fsmib.ch
 image: andreas_rect.png
 ---
