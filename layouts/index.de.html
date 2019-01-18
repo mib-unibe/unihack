@@ -1,12 +1,16 @@
 {{ define "main" }}
-    {{ partial "banner.html" . }}
-    <div class="Container">
-        <h1>UniHack 2019</h1>
-        <p>
-            Mach mit bei der Premiere von UniHack, einem Hackathon an der Universität Bern.
-        </p>
-    </div>
-{{ end }}
+<main role="main">
+  <section class="Banner Page--Banner">
+      {{ partial "header/site-nav.html" . }}
+  </section>
+  <section class="Container Page">
+    <p>Der Hackathon von Studierenden für Studierende</p>
+  </section>
+  <section class="Container Page"><p>Testimonial</p></section>
+  <section class="Container Page"><p>Logos</p></section>
+  <section class="Container Page"><p>Sponsoren</p></section>
+</main>
+{{ end }} 
 {{ define "footer" }}
-    {{ partial "footer/site-footer-fixed.html" . }}
+    {{ partial "footer/site-footer-unfixed.html" . }}
 {{ end }}
