@@ -12,11 +12,17 @@
   transition: opacity;
   transition-duration: 0.3s;
 
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
   background-size: 400% 400%;
   background-image: linear-gradient(45deg, $jumperViolet, $jumperYellow);
+}
+
+.MenuOverlay-Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  padding: 4em 4em;
 }
 
 @keyframes GadientAnimation {
@@ -34,4 +40,10 @@
 .Hamburger-Checkbox:checked ~ .MenuOverlay {
   opacity: 1;
   animation: GadientAnimation 10s ease infinite;
+}
+
+.MenuOverlay-Item {
+  color: $jumperBlack;
+  font-size: 3em;
+  transition: opacity;
 }
