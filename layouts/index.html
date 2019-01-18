@@ -1,11 +1,16 @@
 {{ define "main" }}
-    {{ partial "led-banner.html"  . }}
-    <div class="Container">
-        <h1>Hello world ♥️</h1>
-        <p>We are currently working on this page.</p>
-        <p>MIB</p>
-    </div>
-{{ end }}
+<main role="main">
+  <section class="Banner Page--Banner">
+      {{ partial "header/site-nav.html" . }}
+  </section>
+  <section class="Container Page">
+    <p>Der Hackathon von Studierenden für Studierende</p>
+  </section>
+  <section class="Container Page"><p>Testimonial</p></section>
+  <section class="Container Page"><p>Logos</p></section>
+  <section class="Container Page"><p>Sponsoren</p></section>
+</main>
+{{ end }} 
 {{ define "footer" }}
-    {{ partial "footer/site-footer-fixed.html" . }}
+    {{ partial "footer/site-footer-unfixed.html" . }}
 {{ end }}

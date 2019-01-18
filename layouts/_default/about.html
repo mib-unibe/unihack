@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ partial "header/site-nav.html" . }}
 <div class="AboutContainer">
     {{ range .Paginator.Pages }}
         {{ if not .Params.member}}

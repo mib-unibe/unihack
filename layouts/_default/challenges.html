@@ -1,4 +1,5 @@
 {{ define "main" }}
+    {{ partial "header/site-nav.html" . }}
     <div class="Container">
         {{ range .Paginator.Pages }}
             {{ partial "challenge/challenge-section" . }}

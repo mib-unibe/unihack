@@ -1,0 +1,35 @@
+<div class="Hamburger">
+  <input id="hamburger-toggle" class="Hamburger-Checkbox" type="checkbox" />
+  <label for="hamburger-toggle" class="Hamburger-Label">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <!-- Overlay -->
+  <div class="MenuOverlay">
+    <div class="MenuOverlay-Content">
+      <div>
+        <nav>
+          {{ range.Site.Menus.main }}
+          <a href="{{ .URL }}" title="{{ .Title }}" class="MenuOverlay-Item">
+            {{- .Name -}} {{- with .Page -}} {{- end -}}
+          </a>
+          <br />
+          {{ end }}
+        </nav>
+      </div>
+      <div>
+        <ul class="LanguageSwitcher">
+          {{ range.AllTranslations }}
+          <li>
+            {{ if eq .Lang $.Page.Lang }} {{ .Language.LanguageName }}
+            {{ else }}
+            <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{ end }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

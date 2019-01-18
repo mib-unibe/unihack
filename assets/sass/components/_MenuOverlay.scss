@@ -1,0 +1,57 @@
+// TODO seperate file
+.MenuOverlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  z-index: 2;
+
+  transition: opacity;
+  transition-duration: 0.3s;
+
+  background-size: 400% 400%;
+  background-image: linear-gradient(45deg, $jumperViolet, $jumperYellow);
+}
+
+.MenuOverlay-Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  padding: 5em 1.5em;
+}
+
+@keyframes GadientAnimation {
+  0% {
+    background-position: 45% 0%;
+  }
+  50% {
+    background-position: 56% 100%;
+  }
+  100% {
+    background-position: 45% 0%;
+  }
+}
+
+.Hamburger-Checkbox:checked ~ .MenuOverlay {
+  opacity: 1;
+  animation: GadientAnimation 10s ease infinite;
+}
+
+.MenuOverlay-Item {
+  color: $jumperBlack;
+  font-size: 2.5em;
+  transition: opacity;
+}
+
+a.MenuOverlay-Item {
+  text-decoration: none;
+}
+
+a.MenuOverlay-Item:hover {
+  text-decoration: underline;
+}
