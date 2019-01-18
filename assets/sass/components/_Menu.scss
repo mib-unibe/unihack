@@ -1,40 +1,114 @@
 /**
  * Menu component
  */
- .Menu {
-    // General
-    width: 100%;
-    padding: 1em 0.8em;
-    // Flexbox
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  /*
+.Menu {
+  // General
+  width: 100%;
+  padding: 1em 0.8em;
+  // Flexbox
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input.Menu-Hamburger {
+  width: 44px;
+  height: 44px;
+  z-index: 3;
+  position: relative;
+  display: block;
+  opacity: 0;
+}
+
+.Menu-Hamburger:checked ~ label.Menu-Hamburger > span {
+  background: $primaryColor;
+}
+
+.Menu-Hamburger:checked ~ label.Menu-Hamburger > span:first-child {
+  transform: translate(0px, 14px) rotate(45deg);
+}
+
+.Menu-Hamburger:checked ~ label.Menu-Hamburger > span:nth-child(2) {
+  opacity: 0;
+}
+
+.Menu-Hamburger:checked ~ label.Menu-Hamburger > span:last-child {
+  transform: translate(0px, -14px) rotate(-45deg);
+}
+
+div.Menu-Hamburger {
+  width: 44px;
+  height: 44px;
+}
+
+div.Menu-Overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  z-index: 4;
+  transition: all;
+  transition-duration: 0.3s;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2em;
+}
+
+.Menu-Hamburger:checked ~ .Menu-Overlay {
+  opacity: 1;
+}
+
+label.Menu-Hamburger {
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  top: -44px;
+  left: 0px;
+}
+
+label.Menu-Hamburger > span {
+  width: 100%;
+  height: 2px;
+  display: block;
+  height: 3px;
+  background: white;
+  transition: all;
+  transition-duration: 0.2s;
+}
+
+/*
    * Menu-Item component
    * 
    * Can be used within a Menu or a MenuGroup.
    */
-  a.Menu-MenuItem {
-    display: block;
-    color: white; //TODO variable
-    transition: all 0.1s;
-    padding: 1.1em;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
+a.Menu-MenuItem {
+  display: block;
+  color: white; //TODO variable
+  transition: all 0.1s;
+  padding: 1.1em;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
   }
-  
-  /*
+}
+
+/*
    * Menu-MenuItemGroup
    *
    * Can be used to group MenuItems.
    */
-  .Menu-MenuItemGroup {
-    // Flexbox
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.Menu-MenuItemGroup {
+  // Flexbox
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
