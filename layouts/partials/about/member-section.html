@@ -1,0 +1,11 @@
+<section class="MemberSection">
+    <div class="MemberSection-Content">
+        <header class="MemberSection-Header">
+            <h2 class="MemberSection-Title">{{ .Title }}</h2>
+            {{ partial "about/member-role" . }}
+        </header>
+        <p>{{ .Content }}</p>
+        <p>Contact: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
+    </div>
+    <img class="MemberSection-Image" alt="{{ .Title }}" src="/about-us/{{ .Params.image }}">
+</section>

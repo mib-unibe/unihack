@@ -1,0 +1,47 @@
+.MemberSection {
+  padding: 3em 0;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.MemberSection-Content{
+  padding-top: 1em;
+  width: 50%;
+  overflow: fragments;
+  height: auto;
+}
+
+.MemberSection-Header{
+  margin: 0;
+}
+
+.MemberSection-Title{
+  margin: 0;
+  padding: 0.2em 0;
+}
+
+.MemberSection-Image{
+  float: right;
+  max-height: 360px;
+}
+
+
+ul.RoleList {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.RoleList-Element{
+
+  font-size: 1em;
+  line-height: 1.5em;
+
+  padding: 0.4em;
+  margin: 0 0.2em;
+  border-radius: 2px;
+}
+
+

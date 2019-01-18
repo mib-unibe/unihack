@@ -1,4 +1,0 @@
----
-fixedFooter: true
----
-# Hackathon Organizers

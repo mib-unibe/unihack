@@ -3,10 +3,19 @@
  *
  * This component can be used to center the main content.
  */
-.Container {
+
+@mixin container($maxWidth){
   margin: auto;
-  max-width: 50em;
+  max-width: $maxWidth;
 
   // padding to bottom and top
   padding: 1.5em 0em;
+}
+
+.Container {
+  @include container(50em);
+}
+
+.AboutContainer {
+  @include container(70em);
 }
