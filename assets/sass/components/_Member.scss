@@ -6,8 +6,8 @@
 }
 
 .MemberSection-Content{
-  padding: 1em 3em;
-  width: 50%;
+  padding: 1em 4em;
+  padding-right: 0;
   overflow: fragments;
   height: auto;
 }
@@ -17,13 +17,20 @@
 }
 
 .MemberSection-Title{
+  font-size: 2em;
   margin: 0;
   padding: 0.2em 0;
 }
 
 .MemberSection-Image{
-  float: right;
-  max-height: 360px;
+  max-height: 300px;
+}
+
+.MemberSection-Contact{
+}
+
+.MemberSection-Contact a{
+  font-weight: normal;
 }
 
 
@@ -31,15 +38,15 @@ ul.RoleList {
   display: block;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 1em 0;
 }
 
 li.RoleList-Element{
 
-  font-size: 1em;
+  font-size: 1.1em;
   line-height: 1.5em;
 
-  padding: 0.4em;
+  padding: 0.4em 0.8em;
   margin: 0 0.2em;
   border-radius: 2px;
 }
