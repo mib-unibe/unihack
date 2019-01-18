@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="Container">
+<div class="AboutContainer">
     {{ range .Paginator.Pages }}
         {{ if not .Params.member}}
             {{ partial "about/about-us" . }}
