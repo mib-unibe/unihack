@@ -3,41 +3,7 @@
   <section class="Banner Page--Banner">
       <nav>
           <div class="Menu">
-                <div class="Menu-MenuItemGroup">
-                        <a href="{{ "/" | relLangURL }}" title="home" class="LogoLink">
-                          <svg
-                            width="44px"
-                            height="44px"
-                            viewBox="0 0 90 90"
-                            version="1.1"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                          >
-                            <g
-                              stroke="none"
-                              stroke-width="1"
-                              fill="none"
-                              fill-rule="evenodd"
-                            >
-                              <g stroke="#D81159" stroke-width="4" class="Logo">
-                                <polyline
-                                  stroke-linecap="square"
-                                  stroke-linejoin="bevel"
-                                  points="10 10 10 80 30 80 30 10 40 10 40 80 50 80 50 45 70 45 70 10 80 10 80 80"
-                                ></polyline>
-                                <rect x="2" y="2" width="86" height="86"></rect>
-                              </g>
-                            </g>
-                          </svg>
-                        </a>
-                    </div>
-                    <div class="Menu-MenuItemGroup">
-                            {{ range.Site.Menus.main }}
-                            <a href="{{ .URL }}" title="{{ .Title }}" class="Menu-MenuItem">
-                              {{- .Name -}} {{- with .Page -}} {{- end -}}
-                            </a>
-                          {{ end }}
-                    </div>
+                {{ partial "logo.html" . }}
           </div>
       </nav>
   </section>
