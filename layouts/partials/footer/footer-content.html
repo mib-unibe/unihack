@@ -1,10 +1,30 @@
-<div class="ThreeColumns Container">
-    <div class="LeftArea">
+<div class="FooterContainer">
+    <div class="FourColumns">
+        <ul>
+            <h3>Contact:</h3>
+            <p><a href="">Contact</a></p>
+            <p><a href="">FAQ</a></p>
+        </ul>
+        <ul class="AreaTwo">
+            <h3>Program:</h3>
+            <li><p><a href="">Contact</a></p></li>
+            <li><p><a href="">FAQ</a></p></li>
+        </ul>
+        <ul class="AreaThree">
+            <h3>Challenges:</h3>
+            {{ range where .Site.Pages "Section" "challenges" }}
+                    <li><p><a href="">{{ .Title }}</a></p></li>
+            {{ end }}
+        </ul>
+        <ul>
+            <h3>Sponsors:</h3>
+            <li><p><a href="">AdNovum</a></p></li>
+            <li><p><a href="">M&S Software Engineering</a></p></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="Footer-Bottom">
         © 2019 Fachschaft Mathematik und Informatik Bern - All rights reserved
     </div>
-    <div class="RightArea">
-        <p><a href="">Facebook</a></p>
-        <p><a href="">Contact</a></p>
-        <p><a href="">FAQ</a></p>
-    </div>
+
 </div>
