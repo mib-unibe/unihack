@@ -47,3 +47,11 @@
   font-size: 3em;
   transition: opacity;
 }
+
+a.MenuOverlay-Item {
+  text-decoration: none;
+}
+
+a.MenuOverlay-Item:hover {
+  text-decoration: underline;
+}
