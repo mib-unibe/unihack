@@ -1,0 +1,14 @@
+{{ define "main" }}
+    {{ partial "header/site-nav.html" . }}
+    <div class="Container">
+        {{ .Content }}
+        <ul class="Timeline">
+        {{ range sort .Paginator.Pages "Params.position" }}
+            {{ partial "program/program-entry" . }}
+          {{ end }}
+        </ul>
+    </div>
+{{ end }}
+{{ define "footer" }}
+    {{ partial "footer/site-footer-unfixed.html" . }}
+{{ end }}
