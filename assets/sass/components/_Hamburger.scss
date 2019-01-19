@@ -42,7 +42,7 @@
 }
 
 .Hamburger-Checkbox:checked ~ .Hamburger-Label > span:first-child {
-  transform: translate(0px, 14px) rotate(45+180deg);
+  transform: translate(0px, 15px) rotate(45+180deg);
 }
 
 .Hamburger-Checkbox:checked ~ .Hamburger-Label > span:nth-child(2) {
@@ -51,5 +51,5 @@
 }
 
 .Hamburger-Checkbox:checked ~ .Hamburger-Label > span:last-child {
-  transform: translate(0px, -14px) rotate(-45+180deg);
+  transform: translate(0px, -15px) rotate(-45+180deg);
 }
