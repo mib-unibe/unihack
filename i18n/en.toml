@@ -6,3 +6,6 @@ other = "Intermediate"
 
 [advanced]
 other = "Advanced"
+
+[sponsoredby]
+other = "Sponsored by"
