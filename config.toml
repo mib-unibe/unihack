@@ -18,10 +18,10 @@ DefaultContentLanguage = "en"
         url = "/"
         weight = 1
 [[languages.en.menu.main]]
-        identifier = "challenges"
-        name = "Challenges"
-        title = "challenges"
-        url = "/challenges/"
+        identifier = "program"
+        name = "Program"
+        title = "program"
+        url = "/program/"
         weight = 2
 [[languages.en.menu.main]]
         identifier = "sponsors"
@@ -35,6 +35,12 @@ DefaultContentLanguage = "en"
         title = "about"
         url = "/about/"
         weight = 4
+[[languages.en.menu.program]]
+        identifier = "challenges"
+        name = "Challenges"
+        title = "challenges"
+        url = "/challenges/"
+        weight = 1
 
 [[languages.de.menu.main]]
         identifier = "home"
@@ -42,11 +48,11 @@ DefaultContentLanguage = "en"
         title = "home"
         url = "/de/"
         weight = 1
-[[languages.de.menu.main]]
-        identifier = "challenges"
-        name = "Challenges"
-        title = "challenges"
-        url = "/de/challenges/"
+[[languages.en.menu.main]]
+        identifier = "program"
+        name = "Program"
+        title = "Programm"
+        url = "/program/"
         weight = 2
 [[languages.de.menu.main]]
         identifier = "sponsors"
@@ -60,3 +66,15 @@ DefaultContentLanguage = "en"
         title = "über uns"
         url = "/de/about/"
         weight = 4
+[[languages.de.menu.program]]
+        identifier = "challenges"
+        name = "Challenges"
+        title = "challenges"
+        url = "/de/challenges/"
+        weight = 1
+[[languages.de.menu.program]]
+        identifier = "challenges"
+        name = "Challenges"
+        title = "challenges"
+        url = "/de/challenges/"
+        weight = 1

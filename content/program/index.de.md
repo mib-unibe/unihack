@@ -3,6 +3,6 @@ fixedFooter: true
 ---
 # Program
 
-We start with
+List dates and times here. And location.
 
-List challenges here.
+List challenges and links to subpages, but only once they're done.
