@@ -6,6 +6,7 @@ levels:
 hardware:
     - PiCar-S
     - Sensors of your choice
+id: picar-s
 ---
 This Task is structured in 3 main tasks which will be documented and guided:
 

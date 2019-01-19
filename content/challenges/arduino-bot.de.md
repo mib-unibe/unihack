@@ -6,6 +6,7 @@ levels:
 hardware:
     - SF-PiCar-V
     - Sensoren deiner Wahl
+id: aruino-bot
 ---
 Diese Challenge ist in 3 Tasks aufgeteilt:
 

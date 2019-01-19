@@ -13,7 +13,7 @@
         <ul class="AreaThree">
             <h3>Challenges:</h3>
             {{ range where .Site.Pages "Section" "challenges" }}
-                    <li><p><a href="">{{ .Title }}</a></p></li>
+                    <li><p><a href="{{.Parent.Permalink}}#{{.Params.id}}">{{ .Title }}</a></p></li>
             {{ end }}
         </ul>
         <ul>

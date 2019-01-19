@@ -7,6 +7,7 @@ levels:
 hardware:
     - SF-PiCar-V
     - Sensoren deiner Wahl
+id: arduipi-sandbox
 ---
 Raspberry Pis und Arduinos sollen zusammen mit einer Auswahl an Sensoren zur Verfügung
 stehen. Die Teilnehmenden können so an ihrem eigenen Projekt arbeiten oder ein Projekt aus

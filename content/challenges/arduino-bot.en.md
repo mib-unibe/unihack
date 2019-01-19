@@ -6,6 +6,7 @@ levels:
 hardware:
     - SF-PiCar-V
     - Sensors of your choice
+id: arduino-bot
 ---
 This Task is structured in 3 main tasks which will be documented and guided:
 

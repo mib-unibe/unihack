@@ -6,6 +6,7 @@ levels:
 hardware:
     - SF-PiCar-V
     - Sensoren deiner Wahl
+id: sf-picar-v
 ---
 Die Teilnehmenden sollen mit dem SV-PiCar-V und [SimpleCV](http://www.simplecv.org) frei herumexperimentieren.
 

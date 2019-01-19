@@ -6,6 +6,7 @@ levels:
 hardware:
     - PiCar-S
     - Sensoren deiner Wahl
+id: picar-s
 ---
 Diese Challenge ist in 3 Tasks aufgeteilt:
 
