@@ -1,16 +1,15 @@
 {{ define "main" }}
+<section class="Banner Page--Banner">
+    {{ partial "header/site-nav.html" . }}
+</section>
 <main role="main">
-  <section class="Banner Page--Banner">
-      {{ partial "header/site-nav.html" . }}
-  </section>
   <section class="Container Page">
-    <p>Der Hackathon von Studierenden für Studierende</p>
+      {{ with .Site.GetPage "/frontpage/motivation" }}
+        {{ .Content }}
+      {{ end }}
   </section>
-  <section class="Container Page"><p>Testimonial</p></section>
-  <section class="Container Page"><p>Logos</p></section>
-  <section class="Container Page"><p>Sponsoren</p></section>
 </main>
 {{ end }} 
 {{ define "footer" }}
-    {{ partial "footer/site-footer-unfixed.html" . }}
+  {{ partial "footer/site-footer-unfixed.html" . }}
 {{ end }}
