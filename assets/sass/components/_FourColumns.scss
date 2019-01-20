@@ -1,16 +1,19 @@
 .FourColumns {
-  // CSS flex
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  width: 100%;
 }
 
+
+
 .FourColumns ul{
-  width: auto;
+  display: inline-block;
   list-style: none;
+
+  vertical-align: top;
+
+  width: 24%;
   margin: 0;
-  padding: 0.4em 0.5em;
-  flex-grow: 1;
+
+  padding: 2em 0;
 }
 
 .FourColumns h3 {
@@ -18,7 +21,6 @@
 }
 
 .FourColumns ul li {
-  width: auto;
   line-height: 1em;
-  padding: 0 1em;
+  padding: 0.4em 1em;
 }

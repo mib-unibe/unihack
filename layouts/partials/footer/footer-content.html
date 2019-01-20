@@ -2,24 +2,24 @@
     <div class="FourColumns">
         <ul>
             <h3>Contact:</h3>
-            <p><a href="">Contact</a></p>
-            <p><a href="">FAQ</a></p>
+            <li><a href="">Contact</a></li>
+            <li><a href="">FAQ</a></li>
         </ul>
         <ul class="AreaTwo">
             <h3>Program:</h3>
-            <li><p><a href="">Contact</a></p></li>
-            <li><p><a href="">FAQ</a></p></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">FAQ</a></li>
         </ul>
         <ul class="AreaThree">
             <h3>Challenges:</h3>
             {{ range where .Site.Pages "Section" "challenges" }}
-                    <li><p><a href="{{.Parent.Permalink}}#{{.Params.id}}">{{ .Title }}</a></p></li>
+                    <li><a href="{{.Parent.Permalink}}#{{.Params.id}}">{{ .Title }}</a></li>
             {{ end }}
         </ul>
         <ul>
             <h3>Sponsors:</h3>
-            <li><p><a href="https://www.adnovum.ch/">AdNovum</a></p></li>
-            <li><p><a href="https://www.m-s.ch/">M&S Software Engineering</a></p></li>
+            <li><a href="https://www.adnovum.ch/">AdNovum</a></li>
+            <li><a href="https://www.m-s.ch/">M&S Software Engineering</a></li>
         </ul>
     </div>
     <hr>
