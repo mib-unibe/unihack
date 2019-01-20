@@ -6,3 +6,9 @@ other = "Intermediate"
 
 [advanced]
 other = "Advanced"
+
+[organizedBy]
+other = "Organized by"
+
+[sponsors]
+other = "Sponsors"

@@ -6,3 +6,9 @@ other = "Fortgeschrittene"
 
 [advanced]
 other = "Erfahrene"
+
+[organizedBy]
+other = "Organisiert von"
+
+[sponsors]
+other = "Sponsoren"
