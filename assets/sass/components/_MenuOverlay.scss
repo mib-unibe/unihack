@@ -1,16 +1,20 @@
-// TODO seperate file
+/*
+ * MenuOverlay component
+ */
 .MenuOverlay {
   position: fixed;
   width: 100vw;
   height: 100vh;
+  transform: translate(9999px, 0px);
 
   top: 0px;
   left: 0px;
   opacity: 0;
   z-index: 2;
 
-  transition: opacity;
+  transition: opacity, transform;
   transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 
   background-size: 400% 400%;
   background-image: linear-gradient(45deg, $jumperViolet, $jumperYellow);
@@ -21,7 +25,6 @@
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
-
   padding: 5em 1.5em;
 }
 
@@ -38,6 +41,7 @@
 }
 
 .Hamburger-Checkbox:checked ~ .MenuOverlay {
+  transform: translate(0px, 0px);
   opacity: 1;
   animation: GadientAnimation 10s ease infinite;
 }
