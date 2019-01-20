@@ -46,7 +46,8 @@
   background: black;
 
   transition: all;
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
 .Hamburger-Checkbox:checked ~ .Hamburger-Label > span:first-child {
