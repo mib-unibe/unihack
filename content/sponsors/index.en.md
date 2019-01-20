@@ -6,6 +6,7 @@ fixedFooter: false
 ## Main Sponsors
 
 ![AdNovum Logo](/AdNovum_Logo-CMYK.svg)
+
 ![M&S Logo](/M&S\ \(Zusatz\).svg)
 
 ## Media Partner
@@ -16,5 +17,5 @@ Unibe Logo
 
 ![MIB Logo](/logo_mib_text.svg)
 
+![FPA Logo](/logo_fpa.svg)
 
-FPA
