@@ -19,3 +19,8 @@
 .AboutContainer {
   @include container(50em);
 }
+
+.FooterContainer {
+  @include container(75em);
+  padding: 0em;
+}

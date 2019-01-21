@@ -6,6 +6,7 @@ levels:
 hardware:
     - SF-PiCar-V
     - Sensors of your choice
+id: sf-picar-v
 ---
 Warm up with the implementation of the car and camera movement.
 Create a WebApp to connect, control and live stream the camera footage.

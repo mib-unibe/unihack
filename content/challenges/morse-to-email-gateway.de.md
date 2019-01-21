@@ -6,6 +6,7 @@ levels:
 hardware:
     - Bereitgestellt von AdNovum
     - Sensoren deiner Wahl
+id: morse-to-email
 ---
 Der Raspberry Pi soll mit einem Tasten und LEDs ausgestattet werden. Der Raspberry Pi
 soll Morsenachrichten über Email senden können. Ein Knopf soll die Nachricht aufzeichnen
