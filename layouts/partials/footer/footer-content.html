@@ -2,19 +2,18 @@
     <div class="FourColumns">
         <ul>
             <h3>Contact:</h3>
-            <li><a href="">Contact</a></li>
-            <li><a href="">FAQ</a></li>
+            <li>Fachschaft Mathematik und Informatik Bern</li>
+            <li>
+                <a href="https://www.google.com/maps/place/Institut+f%C3%BCr+exakte+Wissenschaften,+Sidlerstrasse+5,+3012+Bern">
+                Exakte Wissenschaften<br>
+                Sidlerstrasse 5<br>
+                3012 Bern</a>
+            </li>
         </ul>
-        <ul class="AreaTwo">
-            <h3>Program:</h3>
-            <li><a href="">Contact</a></li>
-            <li><a href="">FAQ</a></li>
-        </ul>
-        <ul class="AreaThree">
-            <h3>Challenges:</h3>
-            {{ range where .Site.Pages "Section" "challenges" }}
-                    <li><a href="{{.Parent.Permalink}}#{{.Params.id}}">{{ .Title }}</a></li>
-            {{ end }}
+        <ul>
+            <li><a href="."><h3>Challenges</h3></a></li>
+            <li><a href="."><h3>Program</h3></a></li>
+            <li><a href="."><h3>Newsletter</h3></a></li>
         </ul>
         <ul>
             <h3>Sponsors:</h3>
