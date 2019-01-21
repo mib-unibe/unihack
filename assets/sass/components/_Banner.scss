@@ -1,10 +1,12 @@
+@import "../variables";
+
 .Banner {
   width: 100vw;
-  height: auto;
 }
+
 .Banner-Header {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-size: 2em;
   letter-spacing: 5px;
   font-weight: 800;
@@ -14,7 +16,76 @@
 .Banner-Subtitle {
   color: #000;
   font-size: 1.8em;
-  margin: 0em 0em;
-  padding: 0em;
+  margin: 0;
+  padding: 0;
   font-weight: 300;
+}
+
+
+.Banner-Overlay {
+  width: 100vw;
+  position: absolute;
+  height: $bannerHeight;
+
+  @media only screen and (max-width: 940px) {
+    height: 60vh;
+  }
+
+}
+
+#banner-logo-image {
+  width: 60vw;
+}
+
+.Banner-Logo {
+  width: 60vw;
+  @media only screen and (max-width: 940px) {
+    width: 80vw;
+  }
+}
+
+.Banner-Date {
+  font-size: 4em;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: black;
+  @media only screen and (max-width: 940px) {
+    font-size: 2em;
+  }
+}
+
+.Banner-Img {
+  background: url("/uniS_19-01-1701571919.gif") no-repeat bottom;
+  background-size: cover;
+  display: block;
+  height: $bannerHeight;
+  width: 100vw;
+
+  @media only screen and (max-width: 940px) {
+    height: 60vh;
+  }
+
+}
+
+.Banner-ImgOverlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(200, 200, 200, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#Banner-Motto {
+  width: 100%;
+  font-size: 3em;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  color: black;
+  @media only screen and (max-width: 940px) {
+    font-size: 2em;
+    padding: 1.1em 1.5em;
+  }
 }

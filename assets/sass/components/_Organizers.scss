@@ -1,0 +1,28 @@
+.Organizers {
+  width: 100vw;
+  text-align: center;
+}
+
+.Organizers-Logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Organizers-Logo {
+  padding: 2em;
+}
+
+#MIB-Logo {
+  width: 40vw;
+  
+}
+
+#FPA-Logo {
+  width: 30vw;
+}
+
+.Organizers-Title {
+  font-size: 2em;
+  letter-spacing: 0.09em;
+}

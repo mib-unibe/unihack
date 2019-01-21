@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1055px" height="273px" viewBox="0 0 1055 273" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UniHack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy" transform="translate(5.000000, 5.000000)">
+            <polyline id="Path" stroke="#000000" stroke-width="10" points="0 0 0 263 142 263 142 0"></polyline>
+            <path d="" id="Path-2" stroke="#979797" stroke-width="6"></path>
+            <polyline id="Path-3" stroke="#000000" stroke-width="10" points="193 263 193 125 299 125 299 263"></polyline>
+            <path d="M359,125 L359,263" id="Path-4" stroke="#000000" stroke-width="10"></path>
+            <path d="M359,0 L359,41" id="Path-5" stroke="#000000" stroke-width="10"></path>
+            <polyline id="Path-6" stroke="#000000" stroke-width="10" points="422 0 422 263 451 263 451 131.5 526 131.5 526 0 558 0 558 263"></polyline>
+            <polyline id="Path-7" stroke="#000000" stroke-width="10" points="717 268 717 260 717 125 605 125 605 263 697 263 697 194 661 194"></polyline>
+            <polyline id="Path-8" stroke="#000000" stroke-width="10" points="873 125 767 125 767 263 873 263"></polyline>
+            <polyline id="Path-9" stroke="#000000" stroke-width="10" points="1046 0 943 125 943 0 916 0 916 263 943 263 943 153 1046 263"></polyline>
+        </g>
+    </g>
+</svg>

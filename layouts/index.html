@@ -1,19 +1,24 @@
 {{ define "main" }}
 <section class="Banner Page--Banner">
     {{ partial "header/site-nav.html" . }}
-    <div class="Container">
-      <h1 class="Banner-Header">UniHack</h1>
-      <h2 class="Banner-Subtitle">29. - 30. März 2019</h2>
+
+    <div class="Banner-Img">
+        <div class="Banner-ImgOverlay">
+                <img class="Banner-Logo" src="/UniHackLogo.svg">
+                <h1 class="Banner-Date">{{ i18n "date"}}</h1>
+        </div>
     </div>
 </section>
 <main role="main">
-    <section class="Container">
-        Der Hackathon von Studierenden für Studierende.
+    <section class="Container" id="Banner-Motto">
+        {{ i18n "motto"}}
       </section>
-  <section class="Container Page">
-    <h2>{{ i18n "organizedBy" }}</h2>
-    <img src="/logo_mib_text.svg">
-    <img src="/logo_fpa.svg">
+  <section class="Organizers Page">
+    <h2 class="Organizers-Title">{{ i18n "organizedBy" }}</h2>
+      <div class="Organizers-Logos">
+          <img class="Organizers-Logo" id="MIB-Logo" src="/logo_mib_text.svg">
+          <img class="Organizers-Logo" id="FPA-Logo" src="/logo_fpa.svg">
+      </div>
   </section>
   <section class="Container Page">
       {{ with .Site.GetPage "/frontpage/motivation" }}
