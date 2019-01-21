@@ -1,0 +1,45 @@
+.ThreeColumns {
+  width: 100%;
+  a {
+    text-decoration: none;
+
+    :hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+//remove top margin from the upper most <ul>
+.ThreeColumns ul:last-child {
+  @media only screen and (max-width: 940px) {
+    padding-top: 0;
+    padding-bottom: 2em;
+  }
+}
+
+.ThreeColumns ul {
+  display: inline-block;
+  list-style: none;
+
+  vertical-align: top;
+
+  width: 33%;
+  margin: 0;
+
+  padding: 0 0 1.2em 0;
+
+  @media only screen and (max-width: 940px) {
+    display: block;
+    width: 100%;
+    padding: 0.5em 1em 0;
+  }
+}
+
+.ThreeColumns ul li {
+  line-height: 1.4em;
+  padding: 0.2em 1em;
+}
+
+.ThreeColumns h3 {
+  margin-bottom: 0.1em;
+}
