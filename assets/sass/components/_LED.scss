@@ -4,12 +4,9 @@
   height: 20px;
   background: linear-gradient(45deg, $jumperViolet, $jumperYellow);
 
-  -webkit-mask: url(/led.svg);
-  -webkit-mask-size: 100% 100%;
-  -webkit-mask-position: 0%;
-  -webkit-mask-repeat: repeat-x;
-
-  mask-size: 100% 100%;
-  mask-repeat: repeat-x;
   mask: url(/led.svg);
+  mask-size: 100% 100%;
+  mask-position: 0%;
+  mask-repeat: repeat-x;
+  
 }
