@@ -2,12 +2,12 @@
 title: About us
 ---
 
-Wir sind 4 motivierte Studenten mit grossem Interesse an Programmieren, Experimentieren und Hackathons.
+Wir sind vier motivierte Studenten mit grossem Interesse am Programmieren, Experimentieren und Hackathons.
 
-Wir wollen
+Wir wollen:
 
 - Ein kreatives Umfeld für interessante und innovative Ideen bieten.
 
-- Studenten neue Kontakte in verschiedenen Semster zun knüpfen ermöglichen.
+- Studierenden aus verschiedenen Semestern und Studiengängen die Möglichkeit neue Kontakte zu knüpfen ermöglichen.
 
-- Die Sichtbarkeit und das Interesse an dem Informatikstudiengang der Universität Bern erhöhen.
+- Sichtbarkeit und Interesse am Informatik-Studium der Universität Bern erhöhen.
