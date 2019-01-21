@@ -3,7 +3,7 @@ dist: xenial
 addons:
   snaps:
     - hugo --channel=extended
-    - node --classic --channel=8
+    - node --classic --channel=10
 
 script:
   - npm install
