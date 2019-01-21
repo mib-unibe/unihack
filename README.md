@@ -4,15 +4,26 @@ This repository contains the website for UNIHACK 2019.
 
 ## Prerequisites
 
-* [Hugo](https://gohugo.io)
+* [Node 10.15.0 LTS](https://nodejs.org/en/download/)
+* [Hugo v0.53/extended](https://gohugo.io)
 
 ## Development
+
+You need to install npm dependencies at the root once with
+
+````
+$ npm install
+````
+
+then
 
 ````
 $ hugo server -D
 ````
 
 ## CSS
+
+> We use [Autoprefixer](https://github.com/postcss/autoprefixer) so you **do not** need to use vendor prefixes directly.
 
 CSS is developed using the following methodolgy and naming scheme:
 
