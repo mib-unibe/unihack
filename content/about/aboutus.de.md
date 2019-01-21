@@ -6,8 +6,8 @@ Wir sind vier motivierte Studenten mit grossem Interesse am Programmieren, Exper
 
 Wir wollen:
 
-- Ein kreatives Umfeld für interessante und innovative Ideen bieten.
+- Ein kreatives Umfeld für interessante und innovative Ideen bereitstellen.
 
-- Studierenden aus verschiedenen Semestern und Studiengängen die Möglichkeit neue Kontakte zu knüpfen ermöglichen.
+- Studierenden aus verschiedenen Semestern und Studiengängen die Möglichkeit neue Kontakte zu knüpfen bieten.
 
 - Sichtbarkeit und Interesse am Informatik-Studium der Universität Bern erhöhen.
