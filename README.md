@@ -4,7 +4,7 @@ This repository contains the website for UNIHACK 2019.
 
 ## Prerequisites
 
-* [Node 10.15.0 LTS](https://nodejs.org/en/download/)
+* [Node 10 LTS](https://nodejs.org/en/download/)
 * [Hugo v0.53/extended](https://gohugo.io)
 
 ## Development
