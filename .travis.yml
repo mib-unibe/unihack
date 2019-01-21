@@ -1,6 +1,12 @@
 dist: xenial
-install: sudo snap install hugo --channel=extended
+
+addons:
+  snaps:
+    - hugo --channel=extended
+    - node --classic --channel=8
+
 script:
+  - npm install
   - hugo
   - cp CNAME public/.
 deploy:
