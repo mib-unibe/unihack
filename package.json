@@ -1,0 +1,22 @@
+{
+  "name": "unihack",
+  "version": "1.0.0",
+  "description": "This repository contains the website for UNIHACK 2019.",
+  "main": "",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assert-true/unihack.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/assert-true/unihack/issues"
+  },
+  "homepage": "https://github.com/assert-true/unihack#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.4.6",
+    "postcss-cli": "^6.1.1"
+  }
+}
