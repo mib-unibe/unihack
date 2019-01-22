@@ -10,5 +10,10 @@
   <body>
     {{ block "main" . }} {{ end }}
     {{ block "footer" . }}{{ end }}
+    <!-- Bundle Javascript and load bundle -->
+    {{ $anime := resources.Get "js/anime.min.js" }}
+    {{ $main := resources.Get "js/main.js" }}
+    {{ $js := slice $anime $main | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint}}
+    <script src="{{ $js.Permalink }}"></script>
   </body>
 </html>
