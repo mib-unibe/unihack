@@ -6,8 +6,6 @@ html,
 body {
   font-size: $fontSize;
   background-color: $background;
-  //TODO investigate which element causes horizontal scroll
-  overflow-x: hidden;
 }
 
 body {
