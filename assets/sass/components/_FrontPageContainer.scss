@@ -1,21 +1,33 @@
-.FrontPageContainer{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 6em 0;
+.FrontPageContainer {
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6em 0;
+  text-align: center;
 
 
-    .Title {
-        font-size: 2em;
-        margin: 0;
-        padding: 1.5em 0;
-    }
+  .Title {
+    font-size: 2em;
+    margin: 0;
+    padding: 1.5em 0;
+  }
+
+  p {
+    font-size: 1.2em;
+    min-width: 55vw;
+    max-width: 60vw;
+  }
 }
 
 .Logo {
-    max-width: 55vw;
-    max-height: 20vh;
-    padding: 2em;
+  max-width: 55vw;
+  max-height: 20vh;
+  padding: 2em;
+}
+
+.Catchphrase {
+  padding: 4em;
 }

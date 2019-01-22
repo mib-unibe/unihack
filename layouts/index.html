@@ -1,15 +1,15 @@
 {{ define "main" }}
-{{ partial "index/banner" }}
+{{ partial "banner" }}
 <main role="main">
-    <section class="Container">
-        Der Hackathon von Studierenden für Studierende.
+    <section class="FrontPage">
+        <h1 class="FrontPageContainer Catchphrase">{{ i18n "catchphrase" }}</h1>
     </section>
     <section class="FrontPageContainer">
         <h2 class="FrontPageContainer Title">{{ i18n "organizedBy" }}</h2>
         <img class="FrontPageContainer Logo Organizers" src="/logo_mib_text.svg">
         <img class="FrontPageContainer Logo Organizers" src="/logo_fpa.svg">
     </section>
-    <section class="Container Page">
+    <section class="FrontPageContainer">
         {{ with .Site.GetPage "/frontpage/motivation" }}
         {{ .Content }}
         {{ end }}
