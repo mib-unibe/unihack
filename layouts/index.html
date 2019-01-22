@@ -1,15 +1,5 @@
 {{ define "main" }}
 <section class="Banner Page--Banner">
-    <!--<div class="Banner-VideoOverlay">
-        {{ partial "header/site-nav-index.html" . }}
-        <div class="Banner-Header">
-            <h1 class="Banner-Title">UniHack</h1>
-            <h2 class="Banner-Subtitle">{{ i18n "date"}}</h2>
-            <h2 class="Banner-Subtitle">{{ i18n "catchphrase"}}</h2>
-        </div>
-    </div>
-    -->
-
     <div class="Banner-VideoOverlay">
         {{ partial "header/site-nav-index.html" . }}
         <div class="Banner-Header">
@@ -18,7 +8,6 @@
             <h2 class="Banner-Subtitle">{{ i18n "catchphrase"}}</h2>
         </div>
     </div>
-
     <div class="Banner-VideoContainer">
         <video playsinline autoplay muted loop poster="banner-poster.jpg">
             <source src="banner-video.mp4" type="video/mp4">
@@ -27,7 +16,6 @@
 </section>
 
 <main role="main">
-
     <section class="Container Page">
         <h2>{{ i18n "organizedBy" }}</h2>
         <img src="/logo_mib_text.svg">
