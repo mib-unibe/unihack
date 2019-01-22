@@ -4,7 +4,7 @@
  *
  * This component styles the Logo(partials/logo.html).
  */
-g.MainLogo {
+g.UniHackLogo {
   stroke: $logoColor;
 }
 
@@ -13,8 +13,8 @@ g.MainLogo {
  *
  * This component can be used to wrap the component into an anchor tag.
  */
-a.MainLogoLink {
-  line-height: 0px;
+a.UniHackLogoLink {
+  line-height: 0;
 }
 
 
