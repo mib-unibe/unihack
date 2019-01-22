@@ -1,5 +1,5 @@
 ---
-title: Yannik Daellenbach
+title: Yannik Dällenbach
 member: true
 roles:
     - Marketing und IT
