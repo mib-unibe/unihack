@@ -1,5 +1,14 @@
 {{ define "main" }}
 <section class="Banner Page--Banner">
+    <!--<div class="Banner-VideoOverlay">
+        {{ partial "header/site-nav-index.html" . }}
+        <div class="Banner-Header">
+            <h1 class="Banner-Title">UniHack</h1>
+            <h2 class="Banner-Subtitle">{{ i18n "date"}}</h2>
+            <h2 class="Banner-Subtitle">{{ i18n "catchphrase"}}</h2>
+        </div>
+    </div>
+    -->
 
     <div class="Banner-VideoOverlay">
         {{ partial "header/site-nav-index.html" . }}
@@ -10,16 +19,11 @@
         </div>
     </div>
 
-    <video
-            class="Banner-Video"
-            playsinline=""
-            autoplay=""
-            muted=""
-            loop=""
-            poster="banner-poster.jpg">
-        <source src="banner-video.mp4" type="video/mp4">
-    </video>
-
+    <div class="Banner-VideoContainer">
+        <video playsinline autoplay muted loop poster="banner-poster.jpg">
+            <source src="banner-video.mp4" type="video/mp4">
+        </video>
+    </div>
 </section>
 
 <main role="main">
