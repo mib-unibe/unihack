@@ -2,22 +2,16 @@
  * MenuOverlay component
  */
 .MenuOverlay {
+  display: none;
   position: fixed;
   width: 100vw;
   height: 100vh;
-  transform: translate(9999px, 0px);
 
   top: 0px;
   left: 0px;
-  opacity: 0;
   z-index: 2;
 
-  transition: opacity, transform;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
-
-  background-size: 400% 400%;
-  background-image: linear-gradient(45deg, $jumperViolet, $jumperYellow);
+  background:rgba(0,0,0,0.9);
 }
 
 .MenuOverlay-Content {
@@ -28,28 +22,10 @@
   padding: 5em 1.5em;
 }
 
-@keyframes GadientAnimation {
-  0% {
-    background-position: 45% 0%;
-  }
-  50% {
-    background-position: 56% 100%;
-  }
-  100% {
-    background-position: 45% 0%;
-  }
-}
-
-.Hamburger-Checkbox:checked ~ .MenuOverlay {
-  transform: translate(0px, 0px);
-  opacity: 1;
-  animation: GadientAnimation 10s ease infinite;
-}
-
 .MenuOverlay-Item {
-  color: $jumperBlack;
+  color: white;
   font-size: 2.5em;
-  transition: opacity;
+  z-index: 5;
 }
 
 a.MenuOverlay-Item {
