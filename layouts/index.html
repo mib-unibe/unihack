@@ -7,24 +7,24 @@
             <h2 class="Banner-Subtitle">29. - 30. März 2019</h2>
         </div>
     </section>
-    <section class="FrontPage">
-        <h1 class="FrontPageContainer Catchphrase">{{ i18n "catchphrase" }}</h1>
+    <section class="Container--Front">
+        <h1 class="Container--Front Catchphrase">{{ i18n "catchphrase" }}</h1>
     </section>
-    <section class="FrontPageContainer">
-        <h2 class="FrontPageContainer Title">{{ i18n "organizedBy" }}</h2>
-        <img class="FrontPageContainer Logo Organizers" src="/logo_mib_text.svg">
-        <img class="FrontPageContainer Logo Organizers" src="/logo_fpa.svg">
+    <section class="Container--Front">
+        <h2 class="Container--Front Title">{{ i18n "organizedBy" }}</h2>
+        <img class="Logo" src="/logo_mib_text.svg">
+        <img class="Logo" src="/logo_fpa.svg">
     </section>
-    <section class="FrontPageContainer">
+    <section class="Container--Front">
         {{ with .Site.GetPage "/frontpage/motivation" }}
         {{ .Content }}
         {{ end }}
         <!-- TODO Newsletter box -->
     </section>
-    <section class="FrontPageContainer">
-        <h2 class="FrontPageContainer Title">{{ i18n "sponsors" }}</h2>
-        <img class="FrontPageContainer Logo" src="/AdNovum_Logo-CMYK.svg">
-        <img class="FrontPageContainer Logo" src="/M&S (Zusatz).svg">
+    <section class="Container--Front">
+        <h2 class="Container--Front Title">{{ i18n "sponsors" }}</h2>
+        <img class="Logo" src="/AdNovum_Logo-CMYK.svg">
+        <img class="Logo" src="/M&S (Zusatz).svg">
     </section>
 </main>
 {{ end }}
