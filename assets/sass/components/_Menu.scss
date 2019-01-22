@@ -9,6 +9,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+}
+
+
+.Index {
+  .Hamburger-Label > span {
+    background: $limePunch;
+  }
+  .Logo{
+    stroke: $limePunch;
+  }
 }
 
 /*

@@ -1,20 +1,63 @@
+
 .Banner {
-  width: 100vw;
-  height: auto;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
 }
+
 .Banner-Header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5em;
+
+  @media only screen and (max-width: $responsiveLimit) {
+    padding: 5em 1.5em;
+  }
+
+}
+
+.Banner-Title{
   margin: 0px;
   padding: 0px;
-  font-size: 2em;
   letter-spacing: 5px;
   font-weight: 800;
-  color: #000;
+  color: $limePunch;
+  font-size: 14em;
+
+  @media only screen and (max-width: $responsiveLimit) {
+    font-size: 3.8em;
+  }
 }
 
 .Banner-Subtitle {
-  color: #000;
-  font-size: 1.8em;
+  font-size: 3.5em;
   margin: 0em 0em;
   padding: 0em;
   font-weight: 300;
+  color: $limePunch;
+
+  @media only screen and (max-width: $responsiveLimit) {
+    font-size: 1.5em;
+  }
+}
+
+.Banner-Video {
+  width: 100%;
+
+  @media only screen and (max-width: $responsiveLimit) {
+    width: auto;
+    height: 100%;
+    transform: translate(-40%, 0);
+  }
+}
+
+.Banner-VideoOverlay{
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background: $chiliOilTransparent;
+
 }

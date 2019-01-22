@@ -15,9 +15,12 @@ $jumperBlue: blue;
 $jumperOrange: orange;
 $jumperViolet: violet;
 
-$background: #fafafa;
+$background: rgb(255, 215, 179);
 $fontColor: #555;
 $fontSize: 1em;
+
+$limePunch: rgb(254, 132, 14);
+$chiliOilTransparent : rgba(147, 71, 66, 0.5);
 
 $h1Color: #333;
 $h2Color: $h1Color;
@@ -41,3 +44,5 @@ $advancedBadgeFontColor: darken(white, 5%);
 
 //TODO
 $logoColor: black;
+
+$responsiveLimit: 1024px;

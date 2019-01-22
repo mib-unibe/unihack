@@ -1,31 +1,45 @@
 {{ define "main" }}
 <section class="Banner Page--Banner">
-    {{ partial "header/site-nav.html" . }}
-    <div class="Container">
-      <h1 class="Banner-Header">UniHack</h1>
-      <h2 class="Banner-Subtitle">29. - 30. März 2019</h2>
+
+    <div class="Banner-VideoOverlay">
+        {{ partial "header/site-nav-index.html" . }}
+        <div class="Banner-Header">
+            <h1 class="Banner-Title">UniHack</h1>
+            <h2 class="Banner-Subtitle">29. - 30. März 2019</h2>
+            <h2 class="Banner-Subtitle">Der Hackathon von Studierenden für Studierende. </h2>
+        </div>
     </div>
+
+    <video
+            class="Banner-Video"
+            playsinline=""
+            autoplay=""
+            muted=""
+            loop=""
+            poster="banner-poster.jpg">
+        <source src="banner-video.mp4" type="video/mp4">
+    </video>
+
 </section>
+
 <main role="main">
-    <section class="Container">
-        Der Hackathon von Studierenden für Studierende.
-      </section>
-  <section class="Container Page">
-    <h2>{{ i18n "organizedBy" }}</h2>
-    <img src="/logo_mib_text.svg">
-    <img src="/logo_fpa.svg">
-  </section>
-  <section class="Container Page">
-      {{ with .Site.GetPage "/frontpage/motivation" }}
+
+    <section class="Container Page">
+        <h2>{{ i18n "organizedBy" }}</h2>
+        <img src="/logo_mib_text.svg">
+        <img src="/logo_fpa.svg">
+    </section>
+    <section class="Container Page">
+        {{ with .Site.GetPage "/frontpage/motivation" }}
         {{ .Content }}
-      {{ end }}
-      <!-- TODO Newsletter box -->
-  </section>
-  <section class="Container Page">
-      <h2>{{ i18n "sponsors" }}</h2>
-  </section>
+        {{ end }}
+        <!-- TODO Newsletter box -->
+    </section>
+    <section class="Container Page">
+        <h2>{{ i18n "sponsors" }}</h2>
+    </section>
 </main>
-{{ end }} 
+{{ end }}
 {{ define "footer" }}
-  {{ partial "footer/site-footer-unfixed.html" . }}
+{{ partial "footer/site-footer-unfixed.html" . }}
 {{ end }}
