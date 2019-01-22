@@ -8,6 +8,6 @@ Wir wollen:
 
 - Ein kreatives Umfeld für interessante und innovative Ideen bereitstellen.
 
-- Studierenden aus verschiedenen Semestern und Studiengängen die Möglichkeit neue Kontakte zu knüpfen bieten.
+- Studierenden aus verschiedenen Semestern und Studiengängen die Möglichkeit bieten neue Kontakte zu knüpfen.
 
 - Sichtbarkeit und Interesse am Informatik-Studium der Universität Bern erhöhen.
