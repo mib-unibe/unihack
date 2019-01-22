@@ -1,6 +1,12 @@
 {{ define "main" }}
-{{ partial "banner" }}
 <main role="main">
+    <section class="Banner Page--Banner">
+        {{ partial "header/site-nav.html" . }}
+        <div class="Container">
+            <h1 class="Banner-Header">UniHack</h1>
+            <h2 class="Banner-Subtitle">29. - 30. März 2019</h2>
+        </div>
+    </section>
     <section class="FrontPage">
         <h1 class="FrontPageContainer Catchphrase">{{ i18n "catchphrase" }}</h1>
     </section>
