@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ partial "header/site-nav.html" . }}
-<div class="AboutContainer">
+<div class="Container-About">
     {{ range .Paginator.Pages }}
         {{ if not .Params.member}}
             {{ partial "about/about-us" . }}
