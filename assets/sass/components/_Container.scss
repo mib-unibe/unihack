@@ -14,6 +14,13 @@
 
 .Container {
   @include container(50em);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  img {
+    max-height: 250px;
+  }
 }
 
 .AboutContainer {
