@@ -1,6 +1,12 @@
 // Menu animation
 let inTimeline = anime.timeline({
-  autoplay: false
+  autoplay: false,
+  complete: function(anim) {
+    if (anim.direction === "reverse") {
+      document.getElementById("Overlay").style.display = "none";
+    }
+    anim.reverse();
+  }
 });
 
 inTimeline
@@ -25,14 +31,9 @@ document.getElementById("hamburger-toggle").addEventListener(
   "click",
   function(e) {
     inTimeline.play();
-    inTimeline.finished.then(() => {
-
-      if (inTimeline.direction === "reverse") {
-        document.getElementById("Overlay").style.display = "none";
-      }
-
+    if (inTimeline.began) {
       inTimeline.reverse();
-    });
+    }
   },
   false
 );
