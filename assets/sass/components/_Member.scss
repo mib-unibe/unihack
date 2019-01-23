@@ -2,14 +2,15 @@
   padding: 3em 0;
   display: flex;
   flex-direction: row;
-  height: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .MemberSection-Content{
-  padding: 1em 4em;
-  padding-right: 0;
+  padding: 1em 0;
   overflow: fragments;
   height: auto;
+  width: 326px;
 }
 
 .MemberSection-Header{
@@ -23,7 +24,9 @@
 }
 
 .MemberSection-Image{
+  display: block;
   max-height: 300px;
+  height: auto;
 }
 
 .MemberSection-Contact{
@@ -43,7 +46,7 @@ ul.RoleList {
 
 li.RoleList-Element{
 
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.5em;
 
   padding: 0.4em 0.8em;
