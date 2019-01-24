@@ -19,8 +19,12 @@ $background: rgb(255, 215, 179);
 $fontColor: #555;
 $fontSize: 1em;
 
-$limePunch: rgb(254, 132, 14);
-$chiliOilTransparent : rgba(147, 71, 66, 0.5);
+// Banner
+$BannerTitleColor: #ff94b2;
+$BannerSubTitleColor: $BannerTitleColor;
+$videoOverlayColor: rgba(0, 0, 0, 0.2);
+$FrontpageHamburgerColor: $BannerTitleColor;
+$FrontpageLogoColor: $BannerTitleColor;
 
 $h1Color: #333;
 $h2Color: $h1Color;
