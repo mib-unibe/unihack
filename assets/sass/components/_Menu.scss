@@ -9,16 +9,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
-
 
 .Index {
   .Hamburger-Label > span {
-    background: $limePunch;
+    background: $FrontpageHamburgerColor;
   }
-  .Logo{
-    stroke: $limePunch;
+  .Logo {
+    stroke: $FrontpageLogoColor;
   }
 }
 
