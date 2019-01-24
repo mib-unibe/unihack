@@ -1,17 +1,23 @@
 // Menu animation
 let inTimeline = anime.timeline({
   autoplay: false,
+  begin: function(anim) {
+    document.getElementById("Overlay2").style.display = "none";
+  },
   complete: function(anim) {
     if (anim.direction === "reverse") {
       document.getElementById("Overlay").style.display = "none";
+    } else {
+      document.getElementById("Overlay2").style.display = "block";
     }
+    
     anim.reverse();
   }
 });
 
 inTimeline
   .add({
-    targets: ".MenuOverlay",
+    targets: "#Overlay",
     opacity: [0, 1],
     duration: 200,
     begin: () => {
