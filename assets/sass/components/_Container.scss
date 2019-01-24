@@ -14,6 +14,19 @@
 
 .Container {
   @include container(50em);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  h3{
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    padding: 2em 0;
+    max-height: $maxImgHeight;
+  }
 }
 
 .Container-About {
@@ -22,5 +35,5 @@
 
 .FooterContainer {
   @include container(75em);
-  padding: 0em;
+  padding: 0;
 }
