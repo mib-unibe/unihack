@@ -24,6 +24,7 @@
     <section class="Container Page">
         {{ with .Site.GetPage "/frontpage/motivation" }}
         {{ .Content }}
+        {{ partial "newsletter.html" . }}
         {{ end }}
         <!-- TODO Newsletter box -->
     </section>
