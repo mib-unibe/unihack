@@ -13,7 +13,8 @@
     <!-- Bundle Javascript and load bundle -->
     {{ $anime := resources.Get "js/anime.min.js" }}
     {{ $main := resources.Get "js/main.js" }}
-    {{ $js := slice $anime $main | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint}}
+    {{ $matomo := resources.Get "js/matomo.js" }}
+    {{ $js := slice $matomo $anime $main | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint}}
     <script src="{{ $js.Permalink }}"></script>
   </body>
 </html>
