@@ -13,11 +13,17 @@ other = "Organized by"
 [sponsors]
 other = "Sponsors"
 
+[partner]
+other = "Partner"
+
 [date]
 other = "March 29th - March 30th 2019"
 
 [catchphrase]
 other = "The Hackathon by Students for Students"
+
+[become-partner]
+other = "Interested in becoming our partner? Contact us at"
 
 [become-sponsor]
 other = "Interested in becoming a sponsor? Contact us at"
