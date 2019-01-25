@@ -1,4 +1,4 @@
-baseURL = "https://www.unihack.ch"
+baseURL = "https://unihack.ch"
 languageCode = "en-us"
 title = "UniHack"
 DefaultContentLanguage = "en"
