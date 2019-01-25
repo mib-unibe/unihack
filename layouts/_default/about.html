@@ -4,6 +4,9 @@
     {{ range .Paginator.Pages }}
         {{ if not .Params.member}}
             {{ partial "about/about-us" . }}
+            {{ i18n "become-sponsor" . }}
+    <a href="mailto: unihack@fsmib.com">
+        unihack@fsmib.com </a>.
         {{ end }}
     {{ end }}
     {{ range .Paginator.Pages }}
