@@ -6,6 +6,7 @@
     <title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.PostCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="icon" type="image/png" href="/logo-32x32.png">
   </head>
   <body>
     {{ block "main" . }} {{ end }}
