@@ -39,3 +39,22 @@
   justify-content: flex-start;
   align-items: center;
 }
+
+.Container-Newsletter{
+
+  background: transparentize($BannerTitleColor, 0.8);
+  border: 1px solid $primaryColor;
+  border-radius: 3px;
+
+  padding: 1em!important;
+
+  form {
+    margin: 0!important;
+    padding: 0!important;
+  }
+}
+
+.Container-Newsletter--Flex{
+  display: flex;
+  flex-direction: column;
+}
