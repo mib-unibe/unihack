@@ -18,14 +18,17 @@
   flex-direction: column;
   justify-content: flex-start;
 
-  h3{
+  h2{
     margin: 0;
     padding: 0;
+    max-width: $maxImgWidth;
   }
 
   img {
     padding: 2em 0;
+    margin: auto;
     max-height: $maxImgHeight;
+    max-width: $maxImgWidth;
   }
 }
 
