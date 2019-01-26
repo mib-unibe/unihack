@@ -14,9 +14,6 @@
 
 .Container {
   @include container(50em);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 
   h2{
     margin: 0;
@@ -26,7 +23,7 @@
 
   img {
     padding: 2em 0;
-    margin: auto;
+    width: 100%;
     max-height: $maxImgHeight;
     max-width: $maxImgWidth;
   }
@@ -36,7 +33,9 @@
   @include container(60em);
 }
 
-.FooterContainer {
-  @include container(75em);
-  padding: 0;
+.Container-Body-Flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
