@@ -16,11 +16,7 @@
 </section>
 
 <main role="main">
-    <section class="Container Page">
-        <h2>{{ i18n "organizedBy" }}</h2>
-        <img src="/logo_mib_text.svg" alt="MIB Logo">
-        <img src="/logo_fpa.svg" alt="FPA Logo">
-    </section>
+    {{ partial "sponsors/organizer-block.html" . }}
     <section class="Container Page">
         {{ with .Site.GetPage "/frontpage/motivation" }}
         {{ .Content }}
@@ -28,12 +24,7 @@
         {{ end }}
         <!-- TODO Newsletter box -->
     </section>
-    <section class="Container Page">
-        <h2>{{ i18n "sponsors" }}</h2>
-        <p>{{ i18n "become-sponsor" }}</p>
-        <img src="/AdNovum_Logo-CMYK.svg" alt="AdNovum Logo">
-        <img src="/M&S (Zusatz).svg" alt="M&S Logo">
-    </section>
+    {{ partial "sponsors/sponsors-block.html" . }}
 </main>
 {{ end }}
 {{ define "footer" }}
