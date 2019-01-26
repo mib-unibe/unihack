@@ -23,7 +23,7 @@
 
   img {
     padding: 2em 0;
-    margin: auto;
+    width: 100%;
     max-height: $maxImgHeight;
     max-width: $maxImgWidth;
   }
@@ -36,5 +36,6 @@
 .Container-Body-Flex {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
