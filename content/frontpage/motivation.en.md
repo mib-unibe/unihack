@@ -1,11 +1,6 @@
-
-
-
-
-
-
-# Why be part of the hackathon?
-
+---
+title: Why be part of the hackathon?
+---
 *Teach your bot to be smart.* Be creative and build an intelligent robot with hardware we provide. Various sensors, motors, camera, RasperryPi's and Arduino's which is available to you to solve a challenge. 
 More info on the available challenges available soon.
 

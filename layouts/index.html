@@ -19,6 +19,7 @@
     {{ partial "sponsors/organizer-block.html" . }}
     <section class="Container Page">
         {{ with .Site.GetPage "/frontpage/motivation" }}
+        <h1>{{ .Title }}</h1>
         {{ .Content }}
         {{ partial "newsletter.html" . }}
         {{ end }}
