@@ -27,3 +27,15 @@ other = "Interested in becoming our partner? Contact us at"
 
 [become-sponsor]
 other = "Interested in becoming a sponsor? Contact us at"
+
+[newsletter-title]
+other = "Registration opens soon. <br>Stay informed by signing up to our Newsletter"
+
+[newsletter-email]
+other = "Email Address  "
+
+[newsletter-required]
+other = "Required"
+
+[newsletter-subscribe]
+other = "Subscribe"

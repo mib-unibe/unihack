@@ -29,3 +29,15 @@ other = "Möchten Sie unser Partner werden? Kontaktieren Sie uns unter "
 
 [become-sponsor]
 other = "Möchten Sie Sponsor werden? Kontaktieren Sie uns unter "
+
+[newsletter-title]
+other = "Die Registrierung öffnet bald. <br>Abboniere unsere Newsletter um auf dem Laufenden zu bleiben"
+
+[newsletter-email]
+other = "Email Addresse  "
+
+[newsletter-required]
+other = "Pflichtfeld"
+
+[newsletter-subscribe]
+other = "Abbonieren"
