@@ -4,16 +4,9 @@
 $primaryColor: #d81159;
 $secondaryColor: #bfbdc1;
 
-$jumperBlack: black;
-$jumberWhite: white;
-
-$jumperBrown: brown;
-$jumperGreen: green;
-$jumperYellow: yellow;
-$jumperRed: red;
-$jumperBlue: blue;
-$jumperOrange: orange;
-$jumperViolet: violet;
+$overlayColor: #000;
+$overlayTransparentize: 1;
+$videoDesaturate: 0.4;
 
 $background: rgb(255, 215, 179);
 $background: #ffe;
@@ -21,9 +14,9 @@ $fontColor: #555;
 $fontSize: 1em;
 
 // Banner
-$BannerTitleColor: #ff94b2;
-$BannerSubTitleColor: $BannerTitleColor;
-$videoOverlayColor: rgba(0, 0, 0, 0.2);
+$BannerTitleColor: $primaryColor;
+$BannerSubTitleColor: darken($BannerTitleColor, 20%);
+$videoOverlayColor: transparentize($overlayColor, $overlayTransparentize);
 $FrontpageHamburgerColor: $BannerTitleColor;
 $FrontpageLogoColor: $BannerTitleColor;
 

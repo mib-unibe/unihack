@@ -5,8 +5,7 @@
         {{ if not .Params.member}}
             {{ partial "about/about-us" . }}
             {{ i18n "become-sponsor" . }}
-    <a href="mailto: unihack@fsmib.com">
-        unihack@fsmib.com </a>.
+    {{ partial "mail-link.html" "unihack@fsmib.ch" }}.
         {{ end }}
     {{ end }}
     {{ range .Paginator.Pages }}

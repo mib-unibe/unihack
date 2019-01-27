@@ -1,0 +1,8 @@
+{{ $mail := . }}
+<a title="Email mailto link" href="javascript:window.location.href=atob('{{ (replace "mailto:email" "email" $mail) | base64Encode }}')">
+    {{ cond (eq $mail "unihack@fsmib.ch") (partial "mail-svgs/unihack.svg")  "" }}
+    {{ cond (eq $mail "yannik.daellenbach@fsmib.ch") (partial "mail-svgs/yannik.svg")  "" }}
+    {{ cond (eq $mail "patrick.hodel@fsmib.ch") (partial "mail-svgs/patrick.svg")  "" }}
+    {{ cond (eq $mail "fabio.bertagna@fsmib.ch") (partial "mail-svgs/fabio.svg")  "" }}
+    {{ cond (eq $mail "andreas.gsponer@fsmib.ch") (partial "mail-svgs/andreas.svg")  "" }}
+</a>

@@ -5,6 +5,6 @@
             <h2 class="MemberSection-Title">{{ .Title }}</h2>
             {{ partial "about/member-role" . }}
         </header>
-        <p class="MemberSection-Contact">Contact: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a></p>
+        <p class="MemberSection-Contact">Contact: {{ partial "mail-link.html" .Params.email }}</p>
     </div>
 </section>

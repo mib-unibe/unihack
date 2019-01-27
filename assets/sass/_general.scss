@@ -30,7 +30,29 @@ strong {
 
 a {
   color: $primaryColor;
+  display: inline;
 }
+
+a[href^="javascript:window.location.href=atob"] {
+  vertical-align: baseline;
+  position: relative;
+  display: inline-block;
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.175rem;
+    height: 1px;
+    background-color: $primaryColor;
+  }
+  > svg {
+    fill: $primaryColor;
+    position: relative;
+    top: 0.25rem;
+  }
+}
+
 
 hr {
   padding: 0;
