@@ -9,12 +9,9 @@
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
           target="_blank" novalidate>
         <div id="mc_embed_signup_scroll" class="Container-Newsletter--Flex">
-            <div class="Newsletter-Header">
-                <img class="Newsletter-InfoIcon" src="/info-circle-solid.svg">
-                <h3 class="Newsletter-Title">
-                    {{with i18n "newsletter-title"}}{{ . | safeHTML}}{{end}}
-                </h3>
-            </div>
+            <h3 class="Newsletter-Title">
+                {{with i18n "newsletter-title"}}{{ . | safeHTML}}{{end}}
+            </h3>
             <div class="indicates-required"></div>
             <div class="mc-field-group Newsletter-InputBlock">
                 <label for="mce-EMAIL">
@@ -32,12 +29,12 @@
                        name="b_c67e8cd33a04d25aa4e494664_292dc604bc"
                        tabindex="-1" value="">
             </div>
-                <input
-                        value='{{ i18n "newsletter-subscribe" . }}'
-                        type="submit"
-                        name="subscribe"
-                        id="mc-embedded-subscribe"
-                        class="button Newsletter-Button">
+            <input
+                    value='{{ i18n "newsletter-subscribe" . }}'
+                    type="submit"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    class="button Newsletter-Button">
         </div>
     </form>
 </div>

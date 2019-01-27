@@ -1,14 +1,4 @@
 
-.Newsletter-Header{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-
-  padding: 0 1em 1em;
-
-}
-
 .Newsletter-InfoIcon{
   width: 32px!important;
   padding: 0!important;
@@ -19,7 +9,7 @@
   font-size: 1.2em;
   font-weight: 500!important;
 
-  padding: 1em!important;
+  padding: 1em 1em 2em!important;
   margin: 0;
 }
 

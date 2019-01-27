@@ -34,10 +34,7 @@ other = "Möchten Sie Sponsor werden? Kontaktieren Sie uns unter "
 other = "Die Registrierung öffnet bald. Abboniere unsere Newsletter um auf dem Laufenden zu bleiben."
 
 [newsletter-email]
-other = "Email Addresse  "
-
-[newsletter-required]
-other = "Pflichtfeld"
+other = "E-Mail Addresse  "
 
 [newsletter-subscribe]
-other = "Abbonieren"
+other = "Abonnieren"
