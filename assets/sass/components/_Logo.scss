@@ -3,6 +3,12 @@
  * 
  * This component styles the Logo(partials/logo.html).
  */
+div.Logo-Header svg.Logo {
+  position: absolute;
+  z-index: 999;
+  transform: translate(0%, -50%);
+}
+
 g.Logo {
   stroke: $logoColor;
 }
