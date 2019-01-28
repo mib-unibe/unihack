@@ -44,7 +44,7 @@ DefaultContentLanguage = "de"
         weight = 1
 [[languages.de.menu.main]]
         identifier = "program"
-        name = "Program"
+        name = "Programm"
         title = "Programm"
         url = "/program/"
         weight = 2
