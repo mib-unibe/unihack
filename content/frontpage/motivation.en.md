@@ -12,7 +12,7 @@ Whether you have no previous experience in programming or your an expert, at thi
 Be creative and build an intelligent robot with hardware we provide. Various sensors, motors, camera, [**Raspberry Pis**](https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/) and [**Arduinos**](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all) which is available to you to solve a challenge. More info on the available challenges coming soon.
 
 ***There IS a free lunch.***
-Thanks to our sponsors we can host this event at no cost for students of the University of Bern. We will provide meals, loads of healthy and/or energy-dense snacks and drinks, so you and your team don't have to worry about anything but hacking.
+Thanks to our sponsors we can host this event at no cost for students of the University of Bern. We will provide meals, loads of healthy and/or energizing snacks and drinks, so you and your team don't have to worry about anything but hacking.
 
 
 For further details on the event check out the [program](/program).
