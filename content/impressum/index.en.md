@@ -5,7 +5,7 @@ Fachschaft Mathematik & Informatik
 
 Sidlerstrasse 5
 
-3006 Bern
+3012 Bern
 
 
 
