@@ -17,4 +17,6 @@ Schanzenstrasse 1
 Our hackathon is open for everyone with all degrees of skill.
 
 ## When is it?
-The hackathon starts in the **afternoon** on 15.4.2019. Further details coming soon.
+The hackathon starts in the **afternoon** on 29.03.2019. Detailed information following soon.
+
+Please check [program page](/en/program) for detailed information. 

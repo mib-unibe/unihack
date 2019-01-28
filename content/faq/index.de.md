@@ -3,7 +3,7 @@ fixedFooter: true
 ---
 # FAQ
 ## Wo findet dieser Event statt?
-Der UniHack findet im UniS gebäude der Universität Bern statt.
+Der UniHack findet im UniS Gebäude der Universität Bern statt.
 <br>
 <br> 
 UniS 
@@ -16,4 +16,6 @@ Schanzeneckstrasse 1
 An diesem Hackathon können alle mitmachen. Es sind keine besonderen Fähigkeiten nötig.
 
 ## Wann findet dieser Hackathon statt?
-Der Hackathon beginnt **nachmittags** am 15.4.2019. Genauere Angaben zur Zeit folgen.
+Der Hackathon beginnt **nachmittags** am 29.03.2019. Details folgen. 
+
+Für Details zum Programm beachte das [Programm](/program).
