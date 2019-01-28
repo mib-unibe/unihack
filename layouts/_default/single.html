@@ -5,9 +5,5 @@
     </div>
 {{ end }}
 {{ define "footer" }}
-    {{ if $.Page.Params.fixedFooter }}
-        {{ partial "footer/site-footer-fixed.html" . }}
-    {{ else }}
-        {{ partial "footer/site-footer-unfixed.html" . }}
-    {{ end }}
+    {{ partial "footer/footer.html" . }}
 {{ end }}

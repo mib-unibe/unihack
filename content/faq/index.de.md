@@ -1,6 +1,3 @@
----
-fixedFooter: true
----
 # FAQ
 ## Wo findet dieser Event statt?
 Der UniHack findet im UniS Gebäude der Universität Bern statt.
