@@ -1,9 +1,9 @@
 <ul class="LanguageSwitcher">
     {{ range.AllTranslations }}
     <li>
-        {{ if eq .Lang $.Page.Lang }} {{ .Language.LanguageName }}
+        {{ if eq .Lang $.Page.Lang }} {{ .Language.Lang }}
         {{ else }}
-        <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        <a href="{{ .Permalink }}">{{ .Language.Lang }}</a>
         {{ end }}
     </li>
     {{ end }}

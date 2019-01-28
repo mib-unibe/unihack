@@ -4,12 +4,13 @@
  * This component can be used to center the main content.
  */
 
+$containerSidePadding: 1.5em;
 @mixin container($maxWidth){
   margin: auto;
   max-width: $maxWidth;
 
   // padding to bottom and top
-  padding: 3em 1.5em;
+  padding: 3em $containerSidePadding;
 }
 
 .Container {

@@ -5,10 +5,12 @@ DefaultContentLanguage = "de"
 
 [languages]
     [languages.en]
-        languageName = "en"
+        languageName = "English"
+        code = "en"
         weight = 2
     [languages.de]
-        languageName = "de"
+        languageName = "Deutsch"
+        code = "de"
         weight = 1
 
 [[languages.en.menu.main]]
@@ -81,7 +83,7 @@ DefaultContentLanguage = "de"
         weight = 4
 [[languages.en.menu.footer]]
         identifier = "faq"
-        name = "Frequently asked questions"
+        name = "FAQ"
         title = "faq"
         url = "/faq/"
         weight = 5
@@ -118,7 +120,7 @@ DefaultContentLanguage = "de"
         weight = 4
 [[languages.de.menu.footer]]
         identifier = "faq"
-        name = "Häufig gestellte Fragen"
+        name = "FAQ"
         title = "faq"
         url = "/faq/"
         weight = 5

@@ -1,6 +1,5 @@
-<div class="Footer">
-    <div class="Footer-Content">
-
+<div>
+    <div class="Footer-Content Container">
         <div>
             <h3>{{ i18n "site" }}</h3>
             {{ range.Site.Menus.footer }}
@@ -11,13 +10,17 @@
         </div>
         <div>
             <h3>{{ i18n "sponsors" }}</h3>
-            <p><a href="https://www.adnovum.ch/">AdNovum</a></p>
-            <p><a href="https://www.m-s.ch/">M&S Software Engineering</a></p>
-            <p><a href="{{ i18n "unibe-link" }}">{{ i18n "unibe" }}</a></p>
+            <p><a target="_blank" href="https://www.adnovum.ch/">AdNovum</a></p>
+            <p><a target="_blank" href="https://www.m-s.ch/">M&S Software Engineering</a></p>
+            <p><a target="_blank" href="{{ i18n "unibe-link" }}">{{ i18n "unibe" }}</a></p>
         </div>
         <div>
             <h3>{{ i18n "languages" }}</h3>
-            {{ partial "languages.html" . }}
+            {{ range.AllTranslations }}
+            <p>
+                <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            </p>
+            {{ end }}
         </div>
         <div>
             <h3>{{ i18n "contact" }}</h3>
@@ -30,12 +33,15 @@
             {{ end }}
             <!-- Impressum -->
 
-
         </div>
     </div>
-    <div class="Footer-Bottom">
+</div>
+<div class="Footer-Bottom">
+    <div class="Footer-Bottom-Content Container">
         <div>{{ partial "logo.html" .}}</div>
         <div>© 2019 Fachschaft Mathematik und Informatik Bern - {{ i18n "rights" }}</div>
+        <div><a href="/" title="Unibe" target="_blank">
+            {{ partial "footer/unibe.svg" }}
+        </a></div>
     </div>
-
 </div>
