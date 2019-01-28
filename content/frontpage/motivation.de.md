@@ -2,20 +2,18 @@
 title: Warum am UniHack teilnehmen?
 ---
 
-***Mach deinen Roboter intelligent***.
-Lass deiner Kreativität freien Lauf und schaffe einen intelligenten Roboter mit der von uns zur Verfügung gestellten Hardware. Motoren, Kameras, [**Raspberry Pi**](https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/)s, [**Arduino**](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all)s und eine Vielfalt an Sensoren stehen dir beim Lösen der Challenges zur Verfügung. Weitere Details zu den Challenges folgen.
+***24 Stunden Spass und Teamwork***.
+Lerne Studentinnen und Studenten der Universität Bern kennen und arbeite zusammen in einem Team an der Lösung einer Challenge.  **24 Stunden** stehen dir und deinem Team zur Verfügung, um eurer Kreativität und euren Ideen freien Lauf zu lassen.
 
 ***Erhalte einen Einblick ins Programmieren***.
-Egal ob du bereits erfahren im Programmieren bist oder du noch nie ein eigenes Program geschrieben hast, am UniHack wirst du dein eigenes Programm schreiben um deinen Roboter zu steuern. Geleitete Workshops und erfahrene Programmiererinnen und Programmierer erleichtern dir den Eingstieg ins Programmieren.
+Egal ob du bereits erfahren im Programmieren bist oder du noch nie deinen eigenen Code geschrieben hast, am UniHack lernst du deinen Roboter zu programmieren. Geleitete Workshops und erfahrene Programmiererinnen und Programmierer erleichtern dir den Eingstieg.
 
-***Gratis Registrierung, Verpflegung inklusive.***
-Dank unseren Sponsoren und Partner ist es uns möglich dieses Event kostenlos für Studierende der Universität Bern anzubieten. Wir sorgen für Malzeiten, gesunde und energiereiche Zwischenverpflegungen und Getränke damit du und dein Team unbesorgt hacken könnt.
+***Erschaffe einen intelligenten Roboter***.
+Lass deiner Kreativität freien Lauf und entwickle einen intelligenten Roboter mit der von uns zur Verfügung gestellten Hardware. Motoren, Kameras, [**Raspberry Pis**](https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/), [**Arduinos**](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all) und verschiedenste Sensoren stehen dir zum Lösen der Challenges zur Verfügung. Weitere Details zu den Challenges folgen.
 
-***24 Stunden Spass und Teamwork***.
-Lerne Studentinnen und Studenten der Universität Bern kennen und arbeite zusammen in einem Team an der Lösung einer Challenge. Löse zusammen in deinem Team während **24 Stunden** eure Challenge und erschafft Kreatives.
+***Kostenlose Teilnahme, Verpflegung inklusive.***
+Dank unseren Sponsoren und Partner ist es uns möglich dieses Event für Studierende der Universität Bern kostenlos anzubieten. Wir sorgen für Malzeiten, gesunde und/oder energiereiche Zwischenverpflegungen und Getränke damit du und dein Team unbesorgt hacken könnt.
 
-Für genauere Details zum Ablauf des Events, schau dir unser [Programm](/program) an.
+Für genaue Details zum Ablauf des Events, schau dir unser [Programm](/program) an.
 
-Die verscheidenen Challanges werden in kürze aufgeschaltet
-
-Noch weitere Fragen? Schau dir auch die [häufig gestellten Fragen](/faq) an oder [schreib uns](/contact).
+Weitere Fragen? Schau dir auch die [häufig gestellten Fragen](/faq) an oder [schreib uns](mailto: unihack@fsmib.ch).
