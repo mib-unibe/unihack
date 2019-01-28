@@ -12,7 +12,7 @@ Egal ob du bereits erfahren im Programmieren bist oder du noch nie deinen eigene
 Lass deiner Kreativität freien Lauf und entwickle einen intelligenten Roboter mit der von uns zur Verfügung gestellten Hardware. Motoren, Kameras, [**Raspberry Pis**](https://www.raspberrypi.org/help/what-%20is-a-raspberry-pi/), [**Arduinos**](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all) und verschiedenste Sensoren stehen dir zum Lösen der Challenges zur Verfügung. Weitere Details zu den Challenges folgen.
 
 ***Kostenlose Teilnahme, Verpflegung inklusive.***
-Dank unseren Sponsoren und Partner ist es uns möglich dieses Event für Studierende der Universität Bern kostenlos anzubieten. Wir sorgen für Malzeiten, gesunde und/oder energiereiche Zwischenverpflegungen und Getränke damit du und dein Team unbesorgt hacken könnt.
+Dank unseren Sponsoren und Partner ist es uns möglich dieses Event für Studierende der Universität Bern kostenlos anzubieten. Wir sorgen für Mahlzeiten, gesunde und/oder energiereiche Zwischenverpflegungen und Getränke damit du und dein Team unbesorgt *hacken* könnt.
 
 Für genaue Details zum Ablauf des Events, schau dir unser [Programm](/program) an.
 
