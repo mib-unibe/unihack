@@ -64,10 +64,10 @@ DefaultContentLanguage = "de"
         weight = 4
 
 [[languages.en.menu.footer]]
-        identifier = "challenges"
-        name = "Challenges"
-        title = "challenges"
-        url = "/en/challenges/"
+        identifier = "program"
+        name = "Program"
+        title = "program"
+        url = "/en/program/"
         weight = 2
 [[languages.en.menu.footer]]
         identifier = "sponsors"
@@ -101,10 +101,10 @@ DefaultContentLanguage = "de"
         url = "/"
         weight = 1
 [[languages.de.menu.footer]]
-        identifier = "challenges"
-        name = "Challenges"
-        title = "challenges"
-        url = "/challenges/"
+        identifier = "program"
+        name = "Programm"
+        title = "program"
+        url = "/programm/"
         weight = 2
 [[languages.de.menu.footer]]
         identifier = "sponsors"
