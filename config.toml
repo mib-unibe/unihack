@@ -60,3 +60,71 @@ DefaultContentLanguage = "de"
         title = "über uns"
         url = "/about/"
         weight = 4
+
+[[languages.en.menu.footer]]
+        identifier = "challenges"
+        name = "Challenges"
+        title = "challenges"
+        url = "/en/challenges/"
+        weight = 2
+[[languages.en.menu.footer]]
+        identifier = "sponsors"
+        name = "Sponsors"
+        title = "sponsors"
+        url = "/en/sponsors/"
+        weight = 3
+[[languages.en.menu.footer]]
+        identifier = "about"
+        name = "About us"
+        title = "about"
+        url = "/en/about/"
+        weight = 4
+[[languages.en.menu.footer]]
+        identifier = "faq"
+        name = "Frequently asked questions"
+        title = "faq"
+        url = "/faq/"
+        weight = 5
+[[languages.en.menu.footer]]
+        identifier = "impressum"
+        name = "Impressum"
+        title = "Impressum"
+        url = "/impressum/"
+        weight = 6
+
+[[languages.de.menu.footer]]
+        identifier = "home"
+        name = "Home"
+        title = "home"
+        url = "/"
+        weight = 1
+[[languages.de.menu.footer]]
+        identifier = "challenges"
+        name = "Challenges"
+        title = "challenges"
+        url = "/challenges/"
+        weight = 2
+[[languages.de.menu.footer]]
+        identifier = "sponsors"
+        name = "Sponsoren"
+        title = "sponsoren"
+        url = "/sponsors/"
+        weight = 3
+[[languages.de.menu.footer]]
+        identifier = "about"
+        name = "Über uns"
+        title = "über uns"
+        url = "/about/"
+        weight = 4
+[[languages.de.menu.footer]]
+        identifier = "faq"
+        name = "Häufig gestellte Fragen"
+        title = "faq"
+        url = "/faq/"
+        weight = 5
+[[languages.de.menu.footer]]
+        identifier = "impressum"
+        name = "Impressum"
+        title = "Impressum"
+        url = "/impressum/"
+        weight = 6
