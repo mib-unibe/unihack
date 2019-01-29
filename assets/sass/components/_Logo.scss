@@ -13,5 +13,7 @@ g.Logo {
  * This component can be used to wrap the component into an anchor tag.
  */
 a.LogoLink {
+  z-index: 3;
   line-height: 0px;
+  position: relative;
 }

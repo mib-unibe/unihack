@@ -5,6 +5,10 @@
   // General
   width: 100%;
   padding: 1.5em 1.5em;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 20;
   // Flexbox
   display: flex;
   justify-content: space-between;
