@@ -48,11 +48,11 @@
     </div>
     <div class="Footer-Bottom">
         <div class="Footer-Bottom-Content Container">
-            <div>{{ partial "logo.html" .}}</div>
-            <div>© 2019 Fachschaft Mathematik und Informatik Bern - {{ i18n "rights" }}</div>
-            <div>
-                <a class="Footer-Link" href="/" title="Unibe" target="_blank">
-                    {{ partial "footer/unibe.svg" }}
+            <div class="Footer-Bottom-Content-Block--One">{{ partial "logo.html" .}}</div>
+            <div class="Footer-Bottom-Content-Block--Two">© 2019 Fachschaft Mathematik und Informatik Bern - {{ i18n "rights" }}</div>
+            <div class="Footer-Bottom-Content-Block--Three">
+                <a class="Footer-Link--Inline" href="/" title="Unibe" target="_blank">
+                    {{ partial "footer/unibe.svg"}}
                 </a>
             </div>
         </div>

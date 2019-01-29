@@ -16,7 +16,7 @@
 
 }
 
-.Footer-ContentBlock{
+.Footer-ContentBlock {
   width: 10em;
   padding: 2em 0 3em;
 }
@@ -35,72 +35,93 @@
 .Footer-Link {
   color: $primaryColor;
   text-decoration: none;
+
   &:hover {
     text-decoration: underline;
   }
 }
 
-.Footer-Bottom {
+.Footer-Link--Inline {
+  padding: 0;
+  display: inline-block;
+}
 
+
+/**
+ *
+ *  ------  Footer-Bottom ------
+ *
+ *
+ */
+.Footer-Bottom {
   background: $footerBackgroundColor;
   color: rgb(255 * $footerContentDim, 255 * $footerContentDim, 255 * $footerContentDim);
+}
 
-  .Footer-Bottom-Content {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    flex-basis: auto;
-    padding-top: 0;
-    padding-bottom: 0;
+.Footer-Bottom-Content {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  flex-basis: auto;
+  padding-top: 0;
+  padding-bottom: 0;
 
-    $logoWidth: 5em;
-    $textWidth: 24em;
-    @media screen and (max-width: $logoWidth + 2*$textWidth + 2*$containerSidePadding) {
-      justify-content: center;
-      flex-flow: column;
-      align-items: center;
-    }
-
-    a, svg {
-      padding: 0;
-      display: inline-block;
-    }
-
-    > div {
-      padding-top: 2em;
-      padding-bottom: 1em;
-      width: $textWidth;
-      svg {
-        height: 5em;
-        width: 100%;
-      }
-    }
-
-    > div:nth-child(2) {
-      display: flex;
-      flex-flow: column;
-      justify-content: space-around;
-      align-content: center;
-      text-align: center;
-      max-width: 100%;
-    }
-
-    > div:first-child {
-      width: $logoWidth;
-      float:left;
-    }
-
-    > div:last-child {
-      width: $logoWidth;
-      float: right;
-    }
-
-    svg {
-      filter: grayscale(1) invert($footerContentDim);
-      &:hover {
-        filter: none;
-      }
-    }
-
+  @media screen and (max-width: $footerBottomLogoWidth + 2*$footerBottomTextWidth + 2*$containerSidePadding) {
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
   }
+}
+
+
+
+
+/**
+  Responsive design of the three columns at the bottom of the page
+ */
+
+.Footer-Bottom-Content-Block {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  width: $footerBottomTextWidth;
+
+  svg {
+    padding: 0;
+    display: inline-block;
+
+    height: 5em;
+    width: 100%;
+
+    filter: grayscale(1) invert($footerContentDim);
+
+    &:hover {
+      filter: none;
+    }
+  }
+
+}
+
+.Footer-Bottom-Content-Block--One {
+  @extend .Footer-Bottom-Content-Block;
+
+  width: $footerBottomLogoWidth;
+  float: left;
+}
+
+.Footer-Bottom-Content-Block--Two {
+  @extend .Footer-Bottom-Content-Block;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  max-width: 100%;
+}
+
+.Footer-Bottom-Content-Block--Three {
+  @extend .Footer-Bottom-Content-Block;
+
+  width: $footerBottomLogoWidth;
+  float: right;
 }
