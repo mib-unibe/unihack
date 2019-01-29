@@ -38,3 +38,21 @@ other = "E-Mail-Addresse  "
 
 [newsletter-subscribe]
 other = "Abonnieren"
+
+[unibe]
+other = "Universität Bern"
+
+[unibe-link]
+other = "https://www.unibe.ch"
+
+[contact]
+other = "Kontakt"
+
+[site]
+other = "Seite"
+
+[languages]
+other = "Sprachen"
+
+[rights]
+other = "Alle Rechte vorbehalten"

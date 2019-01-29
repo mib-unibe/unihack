@@ -36,3 +36,21 @@ other = "Email Address  "
 
 [newsletter-subscribe]
 other = "Subscribe"
+
+[unibe]
+other = "University of Bern"
+
+[unibe-link]
+other = "https://www.unibe.ch/index_eng.html"
+
+[contact]
+other = "Contact"
+
+[site]
+other = "Site"
+
+[languages]
+other = "Languages"
+
+[rights]
+other = "All rights reserved"

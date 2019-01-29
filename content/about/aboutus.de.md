@@ -1,5 +1,5 @@
 ---
-title: About us
+title: "About us"
 ---
 
 Wir sind vier motivierte Studenten mit grossem Interesse am Programmieren, Experimentieren und Hackathons.

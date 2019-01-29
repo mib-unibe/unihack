@@ -4,68 +4,124 @@
 .Footer {
   width: 100vw;
   max-width: 100%;
-  border-top: 2px solid $menuBorderColor;
-
-  a {
-    display: block;
-  }
-
-  p {
-    display: block;
-    margin: auto;
-    padding: 0.2em 0;
-  }
-}
-
-/*
- * Footer--fixed component
- * 
- * This component can be used as a footer, fixed to the bottom of a page.
- */
-.Footer--fixed {
-  @extend .Footer;
-  position: fixed;
-  // always at the bottom
-  bottom: 0;
-  left: 0;
+  background-color: #ddd;
 }
 
 .Footer-Content {
   margin: auto;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-flow: row wrap;
 
+}
 
-  div{
-    width: 22em;
-    padding: 1em;
+.Footer-ContentBlock {
+  width: 10em;
+  padding: 2em 0 3em;
+}
 
-    h3{
-      margin: 0 auto;
+.Footer-Title {
+  margin: 0 auto;
+  padding-bottom: 0.5em;
+}
+
+.Footer-Paragraph {
+  display: block;
+  margin: auto;
+  padding: 0.3em 0;
+}
+
+.Footer-Link {
+  color: $primaryColor;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.Footer-Link--Inline {
+  padding: 0;
+  display: inline-block;
+}
+
+
+/**
+ *
+ *  ------  Footer-Bottom ------
+ *
+ *
+ */
+.Footer-Bottom {
+  background: $footerBackgroundColor;
+  color: rgb(255 * $footerContentDim, 255 * $footerContentDim, 255 * $footerContentDim);
+}
+
+.Footer-Bottom-Content {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  flex-basis: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  @media screen and (max-width: $footerBottomLogoWidth + 2*$footerBottomTextWidth + 2*$containerSidePadding) {
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+  }
+}
+
+
+
+
+/**
+  Responsive design of the three columns at the bottom of the page
+ */
+
+.Footer-Bottom-Content-Block {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  width: $footerBottomTextWidth;
+
+  svg {
+    padding: 0;
+    display: inline-block;
+
+    height: 5em;
+    width: 100%;
+
+    filter: grayscale(1) invert($footerContentDim);
+
+    &:hover {
+      filter: none;
     }
   }
 
 }
 
-.Footer-Bottom {
-  border-top: 2px solid $menuBorderColor;
+.Footer-Bottom-Content-Block--One {
+  @extend .Footer-Bottom-Content-Block;
 
-  padding: 1em;
+  width: $footerBottomLogoWidth;
+  float: left;
+}
+
+.Footer-Bottom-Content-Block--Two {
+  @extend .Footer-Bottom-Content-Block;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-
+  flex-flow: column;
+  justify-content: space-around;
+  align-content: center;
   text-align: center;
+  max-width: 100%;
+}
 
-  div {
-    padding: 0.5em 0.8em;
-  }
+.Footer-Bottom-Content-Block--Three {
+  @extend .Footer-Bottom-Content-Block;
 
-  div:nth-child(2) {
-    flex-basis: max-content;
-  }
+  width: $footerBottomLogoWidth;
+  float: right;
 }

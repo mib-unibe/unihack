@@ -31,7 +31,6 @@ $h1Color: #333;
 $h2Color: $h1Color;
 $strongColor: $h1Color;
 
-$footerColor: #444;
 
 // Menu component
 $menuBorderColor: $secondaryColor;
@@ -52,3 +51,14 @@ $logoColor: black;
 
 $maxImgHeight: 10em;
 $maxImgWidth: 35em;
+
+
+//Footer
+$containerSidePadding: 1.5em;
+$footerColor: #444;
+
+$footerContentDim: 0.5;
+$footerBackgroundColor: #555;
+
+$footerBottomLogoWidth: 5em;
+$footerBottomTextWidth: 24em;
