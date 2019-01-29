@@ -9,7 +9,7 @@ Schanzeneckstrasse 1
 <br>
 3012 Bern
 <br>
-## Wer kann mitmachen? Welche Fähigkeiten muss ich mitrbingen?
+## Wer kann mitmachen? Welche Fähigkeiten muss ich mitbingen?
 An diesem Hackathon können alle mitmachen. Es sind keine besonderen Fähigkeiten nötig.
 
 ## Wann findet dieser Hackathon statt?
