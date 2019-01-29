@@ -4,7 +4,6 @@
  * This component can be used to center the main content.
  */
 
-$containerSidePadding: 1.5em;
 @mixin container($maxWidth){
   margin: auto;
   max-width: $maxWidth;
