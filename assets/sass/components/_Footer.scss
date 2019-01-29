@@ -1,7 +1,7 @@
 /*
  * Footer component
  */
-footer {
+.Footer {
   width: 100vw;
   background-color: #ddd;
 
@@ -39,9 +39,6 @@ footer {
   }
 
 }
-
-$footerContentDim: 0.5;
-$footerBackgroundColor: #555;
 
 .Footer-Bottom {
 

@@ -1,40 +1,38 @@
-<footer>
-    <div>
-        <div class="Footer-Content Container">
-            <div>
-                <h3>{{ i18n "site" }}</h3>
-                {{ range.Site.Menus.footer }}
-                <p><a href="{{ .URL }}" title="{{ .Title }}" class="Footer-Link">
-                    {{- .Name -}} {{- with .Page -}} {{- end -}}
-                </a></p>
-                {{ end }}
-            </div>
-            <div>
-                <h3>{{ i18n "sponsors" }}</h3>
-                <p><a target="_blank" href="https://www.adnovum.ch/">AdNovum</a></p>
-                <p><a target="_blank" href="https://www.m-s.ch/">M&S Software Engineering</a></p>
-                <p><a target="_blank" href="{{ i18n "unibe-link" }}">{{ i18n "unibe" }}</a></p>
-            </div>
-            <div>
-                <h3>{{ i18n "languages" }}</h3>
-                {{ range.AllTranslations }}
-                <p>
-                    <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-                </p>
-                {{ end }}
-            </div>
-            <div>
-                <h3>{{ i18n "contact" }}</h3>
-                <p><a href="mailto:unihack@fsmib.ch">unihack@fsmib.ch</a></p>
-                {{ range where .Site.Menus.main "Identifier" "about" }}
-                <p><a href="{{ .URL }}" title="{{ .Title }}" class="Footer-Link">
-                    {{ .Name }}
-                </a>
-                </p>
-                {{ end }}
-                <!-- Impressum -->
+<footer class="Footer">
+    <div class="Footer-Content Container">
+        <div>
+            <h3>{{ i18n "site" }}</h3>
+            {{ range.Site.Menus.footer }}
+            <p><a href="{{ .URL }}" title="{{ .Title }}" class="Footer-Link">
+                {{- .Name -}} {{- with .Page -}} {{- end -}}
+            </a></p>
+            {{ end }}
+        </div>
+        <div>
+            <h3>{{ i18n "sponsors" }}</h3>
+            <p><a target="_blank" href="https://www.adnovum.ch/">AdNovum</a></p>
+            <p><a target="_blank" href="https://www.m-s.ch/">M&S Software Engineering</a></p>
+            <p><a target="_blank" href="{{ i18n " unibe-link" }}">{{ i18n "unibe" }}</a></p>
+        </div>
+        <div>
+            <h3>{{ i18n "languages" }}</h3>
+            {{ range.AllTranslations }}
+            <p>
+                <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            </p>
+            {{ end }}
+        </div>
+        <div>
+            <h3>{{ i18n "contact" }}</h3>
+            <p><a href="mailto:unihack@fsmib.ch">unihack@fsmib.ch</a></p>
+            {{ range where .Site.Menus.main "Identifier" "about" }}
+            <p><a href="{{ .URL }}" title="{{ .Title }}" class="Footer-Link">
+                {{ .Name }}
+            </a>
+            </p>
+            {{ end }}
+            <!-- //TODO link to Impressum -->
 
-            </div>
         </div>
     </div>
     <div class="Footer-Bottom">
