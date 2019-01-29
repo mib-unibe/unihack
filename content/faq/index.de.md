@@ -13,6 +13,9 @@ Schanzeneckstrasse 1
 An diesem Hackathon können alle mitmachen. Es sind keine besonderen Fähigkeiten nötig.
 
 ## Wann findet dieser Hackathon statt?
-Der Hackathon beginnt **nachmittags** am 29.03.2019. Details folgen. 
+Der Hackathon beginnt **nachmittags** am 29.03.2019. Details folgen.
+
+## Wie viel kostet die Teilnahme am UniHack?
+Dank unseren [Sponsoren](/sponsors) können Studentinnen und Studenten der Universität Bern gratis am UniHack teilnehmen.
 
 Für Details zum Programm beachte das [Programm](/program).
