@@ -5,20 +5,6 @@
   width: 100vw;
   max-width: 100%;
   background-color: #ddd;
-
-  p {
-    display: block;
-    margin: auto;
-    padding: 0.3em 0;
-  }
-
-  a {
-    color: $primaryColor;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }
 
 .Footer-Content {
@@ -28,17 +14,30 @@
   justify-content: space-between;
   flex-flow: row wrap;
 
+}
 
-  div{
-    width: 10em;
-    padding: 2em 0 3em;
+.Footer-ContentBlock{
+  width: 10em;
+  padding: 2em 0 3em;
+}
 
-    h3{
-      margin: 0 auto;
-      padding-bottom: 0.5em;
-    }
+.Footer-Title {
+  margin: 0 auto;
+  padding-bottom: 0.5em;
+}
+
+.Footer-Paragraph {
+  display: block;
+  margin: auto;
+  padding: 0.3em 0;
+}
+
+.Footer-Link {
+  color: $primaryColor;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
   }
-
 }
 
 .Footer-Bottom {
