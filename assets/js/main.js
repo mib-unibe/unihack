@@ -40,7 +40,6 @@
         anim.direction = "normal";
         document.getElementById("Overlay").style.display = "none";
       } else {
-        console.log("Set other animation");
         currentAnimation = outTimeline;
       }
     }
@@ -74,7 +73,28 @@
     function(e) {
       currentAnimation.play();
       if (currentAnimation.began) {
+        //first reverse animation
         currentAnimation.reverse();
+      }
+
+      // This is horrible I know :(
+
+      if (currentAnimation === inTimeline) {
+        if (currentAnimation.direction === "reverse") {
+          document.getElementById("navigation-menu").style.position =
+            "absolute";
+        } else {
+          document.getElementById("navigation-menu").style.position = "fixed";
+        }
+      }
+
+      if (currentAnimation === outTimeline) {
+        if (currentAnimation.direction === "reverse") {
+          document.getElementById("navigation-menu").style.position = "fixed";
+        } else {
+          document.getElementById("navigation-menu").style.position =
+            "absolute";
+        }
       }
     },
     false
