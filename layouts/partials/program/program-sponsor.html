@@ -1,0 +1,9 @@
+<div class="Sponsor">
+    {{ $sponsor := .Params.sponsor }}
+        {{ with .Site.GetPage "/sponsors" }}
+        {{ range where .Pages "Params.id" $sponsor }}
+            <span class="By">{{ i18n "sponsoredby" }}</span>
+            <img alt="{{ .Title }}" src="/{{ .Params.image }}"/>
+        {{ end }}
+    {{ end }}
+</div>

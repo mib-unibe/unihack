@@ -13,6 +13,11 @@
   margin: 0;
 }
 
+.Newsletter-Title--EvenPadding{
+  @extend .Newsletter-Title;
+  padding: 1em!important;
+}
+
 .Newsletter-InputBlock {
   width: 100%!important;
 }
