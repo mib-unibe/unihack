@@ -6,6 +6,19 @@ addons:
     - node --classic --channel=10
 
 script:
+  - git checkout origin/color1 -f
+  - npm install
+  - hugo
+  - cp CNAME public/color1/.
+  - git checkout origin/color2 -f
+  - npm install
+  - hugo
+  - cp CNAME public/color2/.
+  - git checkout origin/color3 -f
+  - npm install
+  - hugo
+  - cp CNAME public/color3/.
+  - git checkout origin/master
   - npm install
   - hugo
   - cp CNAME public/.
