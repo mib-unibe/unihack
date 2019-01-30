@@ -1,10 +1,12 @@
 <li>
-    <div class="RightItem   ">
+    <div class="RightItem">
         <div class="FlagWrapper">
             <span class="Flag">{{ .Title }}</span>
             <span class="TimeWrapper"><span class="Time">{{ .Params.Time }}</span></span>
         </div>
         <div class="Description">{{ .Content }}</div>
-        {{ partial "program/program-sponsor" . }}
+        {{ if isset .Params "sponsor" }}
+            {{ partial "program/program-sponsor" . }}
+        {{ end }}
     </div>
 </li>

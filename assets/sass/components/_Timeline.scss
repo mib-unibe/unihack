@@ -1,6 +1,5 @@
 .Timeline {
   position: relative;
-  width: 660px;
   margin: 0 auto;
   margin-top: 20px;
   padding: 1em 0;
@@ -8,7 +7,7 @@
 
   &:before {
     position: absolute;
-    left: 50%;
+    left: 2rem;
     top: 0;
     content: ' ';
     display: block;
@@ -44,7 +43,7 @@
 
      .Flag {
        position: relative;
-       display: inline;
+       display: block;
        background: rgb(248, 248, 248);
        padding: 6px 10px;
        border-radius: 5px;
@@ -56,14 +55,14 @@
 
    .LeftItem {
      position: relative;
-     width: 300px;
+     width: 33em;
      float: left;
      text-align: right;
      .Flag {
-
        -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
        -moz-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
        box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+
        &:after {
          content: "";
          position: absolute;
@@ -85,8 +84,7 @@
 
    .RightItem {
      position: relative;
-     width: 300px;
-     float: right;
+     padding-left: 3.9em;
      .Flag {
        -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
        -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
@@ -180,11 +178,11 @@
     text-align: center;
   }
 
-  .flag-wrapper {
+  .FlagWrapper {
     text-align: center;
   }
 
-  .flag {
+  .Flag {
     background: rgb(255,255,255);
     z-index: 15;
   }
@@ -257,12 +255,3 @@
   }
 
 }
-
-//@media screen and (min-width: 400px ?? max-width: 660px) {
-//
-//.direction-l .desc,
-//.direction-r .desc {
-//  margin: 1em 4em 0 4em;
-//}
-
-//}
