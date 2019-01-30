@@ -104,7 +104,7 @@ DefaultContentLanguage = "de"
         identifier = "program"
         name = "Programm"
         title = "program"
-        url = "/programm/"
+        url = "/program/"
         weight = 2
 [[languages.de.menu.footer]]
         identifier = "sponsors"

@@ -1,6 +1,6 @@
 ---
-title: "Snack Midnight Presentation"
-time: "18:00"
-position: 3
+title: "Midnight Snack"
+time: "24:00"
+position: 5
 ---
-Begrüssung und Einführung in den Hackathon
+Ein kleiner Snack der dich für die Nacht stärkt.

@@ -1,6 +1,6 @@
 ---
-title: "Kickoff Presentation"
+title: "Midnight Snack"
 time: "24:00"
-position: 3
+position: 5
 ---
-Midnight snack
+We'll offer small snack that should get you going through the night.

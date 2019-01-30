@@ -1,6 +1,3 @@
----
-fixedFooter: true
----
 # Program
 
-Be welcome
+Dieses Programm ist provisorisch und wird noch angepasst.

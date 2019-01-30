@@ -1,7 +1,6 @@
 ---
-title: "Kickoff Presentation"
-time: "18:00"
-sponsor: 2
+title: "Dinner"
+time: "19:30"
 position: 2
 ---
-Begrüssung und Einführung in den Hackathon
+Dinner.
