@@ -16,6 +16,6 @@ An diesem Hackathon können alle mitmachen. Es sind keine besonderen Fähigkeite
 Der Hackathon beginnt **nachmittags** am 29.03.2019. Details folgen.
 
 ## Wie viel kostet die Teilnahme am UniHack?
-Dank unseren [Sponsoren](/sponsors) können Studentinnen und Studenten der Universität Bern gratis am UniHack teilnehmen.
+Dank unseren [Sponsoren](/sponsors) können Studierende der Universität Bern gratis am UniHack teilnehmen.
 
 Für Details zum Programm beachte das [Programm](/program).
