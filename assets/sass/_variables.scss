@@ -16,7 +16,7 @@ $jumperOrange: orange;
 $jumperViolet: violet;
 
 $background: rgb(255, 215, 179);
-$background: #ffffff;
+$background: #fff;
 $fontColor: #555;
 $fontSize: 1em;
 
@@ -58,7 +58,11 @@ $containerSidePadding: 1.5em;
 $footerColor: #444;
 
 $footerContentDim: 0.5;
-$footerBackgroundColor: #555;
+$footerBottomBackgroundColor: #222;
+$FooterBackground: #333;
+$footerLinkColor: $BannerTitleColor;
+$FooterTitle: #888;
+
 
 $footerBottomLogoWidth: 5em;
 $footerBottomTextWidth: 24em;
