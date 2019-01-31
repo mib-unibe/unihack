@@ -2,7 +2,7 @@
 title: Patrick Hodel
 member: true
 roles:
-    - Communication
+    - Responsible for Sponsoring, Marketing, Infrastructure and Finances
     - Master student in Computer Science
     - President MIB
 email: patrick.hodel@fsmib.ch

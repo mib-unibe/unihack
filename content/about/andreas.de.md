@@ -2,7 +2,7 @@
 title: Andreas Gsponer
 member: true
 roles:
-    - Challenges und Marketing
+    - Verantwortlich für Verpflegung und Planung Programm
     - Bachelorstudent Physik
 email: andreas.gsponer@fsmib.ch
 image: andreas_rect.png
