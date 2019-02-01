@@ -5,5 +5,5 @@ roles:
     - Verantwortlich für Verpflegung und Planung Programm
     - Bachelorstudent Physik
 email: andreas.gsponer@fsmib.ch
-image: andreas_rect.png
+image: andreas.jpg
 ---

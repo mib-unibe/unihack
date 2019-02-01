@@ -6,5 +6,5 @@ roles:
     - Master student in Computer Science
     - President MIB
 email: patrick.hodel@fsmib.ch
-image: patrick_rect.png
+image: patrick.jpg
 ---
