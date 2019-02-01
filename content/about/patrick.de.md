@@ -6,5 +6,5 @@ roles:
     - Masterstudent Informatik
     - Präsident MIB
 email: patrick.hodel@fsmib.ch
-image: patrick_rect.png
+image: patrick.jpg
 ---

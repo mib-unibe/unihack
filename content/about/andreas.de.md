@@ -5,5 +5,5 @@ roles:
     - Challenges und Marketing
     - Bachelorstudent Physik
 email: andreas.gsponer@fsmib.ch
-image: andreas_rect.png
+image: andreas.jpg
 ---

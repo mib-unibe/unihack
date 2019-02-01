@@ -5,5 +5,5 @@ roles:
     - Marketing und IT
     - Bachelorstudent Informatik
 email: yannik.daellenbach@fsmib.ch
-image: yannik_rect.png
+image: yannik.jpg
 ---
