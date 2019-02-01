@@ -2,7 +2,7 @@
 title: Yannik Dällenbach
 member: true
 roles:
-    - Marketing and IT
+    - Responsible for Website, Apparel and Graphics
     - Bachelor Student in Computer Science
 email: yannik.daellenbach@fsmib.ch
 image: yannik_rect.png

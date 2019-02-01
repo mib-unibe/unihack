@@ -2,7 +2,7 @@
 title: Patrick Hodel
 member: true
 roles:
-    - Verantwortlich für Kommunikation Hackathon
+    - Verantwortlich für Sponsoring, Marketing, Infrastruktur und Finanzen
     - Masterstudent Informatik
     - Präsident MIB
 email: patrick.hodel@fsmib.ch

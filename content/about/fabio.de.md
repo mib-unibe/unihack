@@ -2,7 +2,7 @@
 title: Fabio Bertagna
 member: true
 roles:
-    - Hardware und Challenges
+    - Verantwortlich für Challenges, Hardware und Workshops
     - Bachelorstudent Informatik
 email: fabio.bertagna@fsmib.ch
 image: fabio_rect.png
