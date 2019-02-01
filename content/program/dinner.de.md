@@ -1,6 +1,6 @@
 ---
-title: "Dinner"
+title: "Abendessen"
 time: "19:30"
 position: 2
 ---
-Dinner.
+Gemeinsames Abendessen.
