@@ -4,7 +4,8 @@
 .Footer {
   width: 100vw;
   max-width: 100%;
-  background-color: #ddd;
+  background-color: $FooterBackground;
+  border-top: $footerBottomBackgroundColor 1px solid;
 }
 
 .Footer-Content {
@@ -24,6 +25,7 @@
 .Footer-Title {
   margin: 0 auto;
   padding-bottom: 0.5em;
+  color: $FooterTitle;
 }
 
 .Footer-Paragraph {
@@ -33,7 +35,7 @@
 }
 
 .Footer-Link {
-  color: $primaryColor;
+  color: $footerLinkColor;
   text-decoration: none;
 
   &:hover {
@@ -54,7 +56,7 @@
  *
  */
 .Footer-Bottom {
-  background: $footerBackgroundColor;
+  background: $footerBottomBackgroundColor;
   color: rgb(255 * $footerContentDim, 255 * $footerContentDim, 255 * $footerContentDim);
 }
 
@@ -103,14 +105,13 @@
 
 .Footer-Bottom-Content-Block--One {
   @extend .Footer-Bottom-Content-Block;
-
+//visibility: hidden;
   width: $footerBottomLogoWidth;
   float: left;
 }
 
 .Footer-Bottom-Content-Block--Two {
   @extend .Footer-Bottom-Content-Block;
-
   display: flex;
   flex-flow: column;
   justify-content: space-around;
@@ -121,6 +122,7 @@
 
 .Footer-Bottom-Content-Block--Three {
   @extend .Footer-Bottom-Content-Block;
+//visibility: hidden;
 
   width: $footerBottomLogoWidth;
   float: right;
