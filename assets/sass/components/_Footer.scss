@@ -4,8 +4,8 @@
 .Footer {
   width: 100vw;
   max-width: 100%;
-  background-color: $FooterBackground;
-  border-top: $footerBottomBackgroundColor 1px solid;
+  background-color: $FooterBackgroundColor;
+  border-top: $FooterBottomBackgroundColor 1px solid;
 }
 
 .Footer-Content {
@@ -25,7 +25,7 @@
 .Footer-Title {
   margin: 0 auto;
   padding-bottom: 0.5em;
-  color: $FooterTitle;
+  color: $FooterTitleColor;
 }
 
 .Footer-Paragraph {
@@ -35,7 +35,7 @@
 }
 
 .Footer-Link {
-  color: $footerLinkColor;
+  color: $FooterLinkColor;
   text-decoration: none;
 
   &:hover {
@@ -56,8 +56,8 @@
  *
  */
 .Footer-Bottom {
-  background: $footerBottomBackgroundColor;
-  color: rgb(255 * $footerContentDim, 255 * $footerContentDim, 255 * $footerContentDim);
+  background: $FooterBottomBackgroundColor;
+  color: rgb(255 * $FooterBottomContentDim, 255 * $FooterBottomContentDim, 255 * $FooterBottomContentDim);
 }
 
 .Footer-Bottom-Content {
@@ -68,7 +68,7 @@
   padding-top: 0;
   padding-bottom: 0;
 
-  @media screen and (max-width: $footerBottomLogoWidth + 2*$footerBottomTextWidth + 2*$containerSidePadding) {
+  @media screen and (max-width: $FooterBottomLogoWidth + 2*$FooterBottomTextWidth + 2*$ContainerSidePadding) {
     justify-content: center;
     flex-flow: column;
     align-items: center;
@@ -90,7 +90,7 @@
     height: 5em;
     width: 100%;
 
-    filter: grayscale(1) invert($footerContentDim);
+    filter: grayscale(1) invert($FooterBottomContentDim);
 
     &:hover {
       filter: none;
@@ -109,13 +109,13 @@
 .Footer-Bottom-Content-Block {
   padding-top: 2em;
   padding-bottom: 1em;
-  width: $footerBottomTextWidth;
+  width: $FooterBottomTextWidth;
 }
 
 .Footer-Bottom-Content-Block--One {
   @extend .Footer-Bottom-Content-Block;
 //visibility: hidden;
-  width: $footerBottomLogoWidth;
+  width: $FooterBottomLogoWidth;
   float: left;
 }
 
@@ -133,6 +133,6 @@
   @extend .Footer-Bottom-Content-Block;
 //visibility: hidden;
 
-  width: $footerBottomLogoWidth;
+  width: $FooterBottomLogoWidth;
   float: right;
 }
