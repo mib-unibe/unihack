@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ partial "header/site-nav-index.html" . }}
-<section class="Banner Page--Banner">
+<section class="Banner">
     <div class="Banner-VideoOverlay">
         <div class="Banner-Header">
             <h1 class="Banner-Title">UniHack</h1>
@@ -17,12 +17,16 @@
 
 <main role="main">
     {{ partial "sponsors/organizer-block.html" . }}
-    <section class="Container Page">
-        {{ with .Site.GetPage "/frontpage/motivation" }}
-        <h1>{{ .Title }}</h1>
-        {{ .Content }}
-        <div id="Newsletter-Form">{{ partial "newsletter.html" . }}</div>
-        {{ end }}
+    <section>
+        <div class="Container">
+            {{ with .Site.GetPage "/frontpage/motivation" }}
+                <header>
+                    <h1>{{ .Title }}</h1>
+                </header>
+                {{ .Content }}
+                <div id="Newsletter-Form">{{ partial "newsletter.html" . }}</div>
+            {{ end }}
+        </div>
         <!-- TODO Newsletter box -->
     </section>
     {{ partial "sponsors/sponsors-block.html" . }}

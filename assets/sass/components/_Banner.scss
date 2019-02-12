@@ -1,5 +1,7 @@
 .Banner {
   position: relative;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 .Banner-Header {
