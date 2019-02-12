@@ -82,11 +82,7 @@
   Responsive design of the three columns at the bottom of the page
  */
 
-.Footer-Bottom-Content-Block {
-  padding-top: 2em;
-  padding-bottom: 1em;
-  width: $footerBottomTextWidth;
-
+.Footer-Bottom-SVG {
   svg {
     padding: 0;
     display: inline-block;
@@ -100,7 +96,20 @@
       filter: none;
     }
   }
+}
 
+.Footer-Bottom-SVG--Smaller {
+  @extend .Footer-Bottom-SVG;
+  svg{
+    height: 4.5em;
+    padding-top: 0.5em;
+  }
+}
+
+.Footer-Bottom-Content-Block {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  width: $footerBottomTextWidth;
 }
 
 .Footer-Bottom-Content-Block--One {
