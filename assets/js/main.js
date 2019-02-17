@@ -21,14 +21,14 @@
       { value: 0, easing: "easeOutElastic(1, .5)" },
       { value: -2, easing: "easeOutElastic(1, .5)" }
     ],
-    delay: anime.stagger(100, { direction: "reverse", ease: "inOutElastic" }),
+    delay: anime.stagger(60, { direction: "reverse", ease: "inOutElastic" }),
     easing: "linear"
   });
 
   outTimeline.add({
     targets: "#Overlay",
     opacity: [1, 0],
-    duration: 200,
+    duration: 40,
     easing: "linear"
   });
 
@@ -49,7 +49,7 @@
     .add({
       targets: "#Overlay",
       opacity: [0, 1],
-      duration: 200,
+      duration: 100,
       begin: () => {
         document.getElementById("Overlay").style.display = "block";
       },
@@ -62,7 +62,7 @@
         { value: -2, easing: "easeOutElastic(1, .5)" },
         { value: 0, easing: "easeOutElastic(1, .5)" }
       ],
-      delay: anime.stagger(100, { ease: "inOutElastic" }),
+      delay: anime.stagger(80, { ease: "inOutElastic" }),
       easing: "linear"
     });
 
