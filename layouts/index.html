@@ -21,7 +21,7 @@
         <div class="Container">
             {{ with .Site.GetPage "/frontpage/motivation" }}
                 <header>
-                    <h1>{{ .Title }}</h1>
+                    <h2>{{ .Title }}</h2>
                 </header>
                 {{ .Content }}
                 <div id="Newsletter-Form">{{ partial "newsletter.html" . }}</div>
