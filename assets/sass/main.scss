@@ -4,11 +4,14 @@
 
 @import "general";
 
+@import "components/Container";
+@import "components/Hero";
+
 @import "components/Hamburger";
 @import "components/MenuOverlay";
 @import "components/Banner";
 @import "components/Logo";
-@import "components/Container";
+
 @import "components/Menu";
 @import "components/LanguageSwitcher";
 @import "components/ThreeColumns";

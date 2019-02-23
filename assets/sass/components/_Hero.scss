@@ -1,0 +1,57 @@
+.Hero {
+  position: relative;
+  width: 100vw;
+  height: 40vh;
+}
+
+video.Hero-Video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Hero-Inner {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Hero-Title {
+  // Only show the outline of the font.
+  color: rgba(0, 0, 0, 0);
+  outline: transparent none;
+  -webkit-text-stroke-color: $primaryColor;
+  -webkit-text-stroke-width: 2px;
+  // Reset margin and padding.
+  margin: 0px;
+  padding: 0px;
+  letter-spacing:.2em;
+  text-align: center;
+  // The size of the text should be relative to the current viewport width.
+  font-size: 9vh;
+}
+
+.Hero-Subtitle {
+  color: $primaryColor;
+  // Reset margin and padding for the subtitle too.
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  // The size of the text should be relative to the current viewport width.
+  font-size: 4vh;
+}
+
+/*.Hero:before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80vh;
+}*/
