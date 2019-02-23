@@ -2,35 +2,38 @@
  * Container
  *
  * This component can be used to center the main content.
+ * It will layout text nicely.
  */
-
-@mixin container($maxWidth){
-  margin: auto;
-  max-width: $maxWidth;
-
-  // padding to bottom and top
-  padding: 3em $ContainerSidePadding;
-}
-
 .Container {
-  @include container(50em);
+  padding: 3em 1em;
+  margin: auto;
+  max-width: 40em;
 
-  h2{
-    margin: 0;
+  h2 {
+    margin: 0rem 0rem 1.4rem 0rem;
     padding: 0;
-    max-width: $maxImgWidth;
   }
 
-  img {
-    padding: 2em 0;
-    width: 100%;
-    max-height: $maxImgHeight;
-    max-width: $maxImgWidth;
+  h3 {
+    margin: 0rem 0rem 0.2rem 0rem;
   }
-}
 
-.Container-About {
-  @include container(60em);
+  p {
+    padding: 0rem;
+    margin: 0rem 0rem 1.6rem 0rem;
+    line-height: 1.8rem;
+    hyphens: auto;
+  }
+
+  // Links in text will be underlined by default.
+  a {
+    color: $fontColor;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: $accentPrimaryColor;
+  }
 }
 
 .Container-Body-Flex {
@@ -40,22 +43,21 @@
   align-items: center;
 }
 
-.Container-Newsletter{
-
+.Container-Newsletter {
   background: transparentize($BannerTitleColor, 0.8);
   border: 1px solid $primaryColor;
   border-radius: 3px;
 
-  padding: 1em!important;
-  margin-top: 2em!important;
+  padding: 1em !important;
+  margin-top: 2em !important;
 
   form {
-    margin: 0!important;
-    padding: 0!important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
 
-.Container-Newsletter--Flex{
+.Container-Newsletter--Flex {
   display: flex;
   flex-direction: column;
 }

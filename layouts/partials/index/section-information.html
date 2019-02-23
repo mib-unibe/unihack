@@ -1,0 +1,10 @@
+{{ with .Site.GetPage "/index/information" }}
+    <section>
+        <div class="Container">
+            <header>
+                <h2>{{ .Title }}</h2>
+            </header>
+            {{ .Content }}
+        </div>
+    </section>
+{{ end }}

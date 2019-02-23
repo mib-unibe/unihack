@@ -1,37 +1,5 @@
 {{ define "main" }}
-{{ partial "header/site-nav-index.html" . }}
-<section class="Banner">
-    <div class="Banner-VideoOverlay">
-        <div class="Banner-Header">
-            <h1 class="Banner-Title">UniHack</h1>
-            <h2 class="Banner-Subtitle">{{ i18n "date"}}</h2>
-            <h2 class="Banner-Subtitle">{{ i18n "catchphrase"}}</h2>
-        </div>
-    </div>
-    <div class="Banner-VideoContainer">
-        <video playsinline autoplay muted loop poster="/banner-poster.jpg">
-            <source src="/banner-video.mp4" type="video/mp4">
-        </video>
-    </div>
-</section>
-
 <main role="main">
-    {{ partial "sponsors/organizer-block.html" . }}
-    <section>
-        <div class="Container">
-            {{ with .Site.GetPage "/frontpage/motivation" }}
-                <header>
-                    <h2>{{ .Title }}</h2>
-                </header>
-                {{ .Content }}
-                <div id="Newsletter-Form">{{ partial "newsletter.html" . }}</div>
-            {{ end }}
-        </div>
-        <!-- TODO Newsletter box -->
-    </section>
-    {{ partial "sponsors/sponsors-block.html" . }}
+    {{ partial "index/section-information.html" . }}
 </main>
-{{ end }}
-{{ define "footer" }}
-{{ partial "footer/footer.html" . }}
 {{ end }}

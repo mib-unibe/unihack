@@ -2,18 +2,9 @@
  * General settings
  */
 $primaryColor: #d81159;
-$secondaryColor: #bfbdc1;
+$accentPrimaryColor: #FF5484;
 
-$jumperBlack: black;
-$jumberWhite: white;
-
-$jumperBrown: brown;
-$jumperGreen: green;
-$jumperYellow: yellow;
-$jumperRed: red;
-$jumperBlue: blue;
-$jumperOrange: orange;
-$jumperViolet: violet;
+$secondaryColor: #FF5484;
 
 $background: rgb(255, 215, 179);
 $background: #fff;
@@ -43,7 +34,7 @@ $maxImgWidth: 35em;
 
 
 //Footer
-$ContainerSidePadding: 1.5em;
+$ContainerSidePadding: 1rem;
 $FooterColor: #444;
 
 $FooterBottomContentDim: 0.5;
