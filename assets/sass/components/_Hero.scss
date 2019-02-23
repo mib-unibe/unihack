@@ -15,7 +15,7 @@ video.Hero-Video {
   width: 100vw;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-  padding: 2rem 2rem;
+  padding: calc(2rem + 44px) 2rem 0rem 2rem;
 
   display: flex;
   flex-direction: column;
