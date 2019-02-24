@@ -1,0 +1,1 @@
+UniHack ist ein Hackathon, welcher von Studierenden für Studierende organisiert wird.
