@@ -18,7 +18,12 @@ a.LogoLink {
   position: relative;
 }
 
+img.Logo {
+  margin: 1rem 0;
+  max-height: 10rem;
+}
+
 img.Logo--Sponsor {
-  padding: 2rem 0;
+  margin: 1rem 0;
   max-height: 10rem;
 }
