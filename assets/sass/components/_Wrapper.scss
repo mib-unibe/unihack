@@ -1,7 +1,8 @@
-// This will center every element (image)
+// This will center every element
 .Wrapper--Centered {
     width: 100%;
     display: flex;
     justify-items: center;
+    align-content: center;
     flex-direction: column;
 }
