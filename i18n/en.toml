@@ -57,3 +57,12 @@ other = "All rights reserved"
 
 [sponsoredby]
 other = "Sponsored by"
+
+[meta-description]
+other = "Unihack is a hackathon organized by students for all students at the university of Bern from March 29 to March 30."
+
+[meta-title]
+other = "Unihack - The hackathon by students for all students."
+
+[meta-locale]
+other = "en_CH"
