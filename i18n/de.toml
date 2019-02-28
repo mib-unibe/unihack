@@ -68,3 +68,6 @@ other = "Unihack - Der Hackathon von Studierenden für alle Studierende."
 
 [meta-locale]
 other = "de_CH"
+
+[register]
+other = "Registrieren"
