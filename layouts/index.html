@@ -24,7 +24,9 @@
                     <h2>{{ .Title }}</h2>
                 </header>
                 {{ .Content }}
-                <div id="Newsletter-Form">{{ partial "newsletter.html" . }}</div>
+                <div class="Registration">
+                    <a href="https://goo.gl/forms/vg3vLGHPHXuElmBN2" target="_blank" class="Registration-Button">{{ i18n "register" }}</a>
+                </div>
             {{ end }}
         </div>
         <!-- TODO Newsletter box -->

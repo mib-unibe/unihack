@@ -1,0 +1,21 @@
+.Registration-Button {
+    display: block;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    background: $BannerTitleColor;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.Registration-Button:hover {
+    display: block;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    background: darken($BannerTitleColor, 10%);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
