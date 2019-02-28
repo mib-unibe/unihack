@@ -59,3 +59,12 @@ other = "Alle Rechte vorbehalten"
 
 [sponsoredby]
 other = "Gesponsert durch"
+
+[meta-description]
+other = "Der Unihack ist ein Hackathon organisiert von Studierenden für Studierende stattfindend am 29. bis 30. März an der Uni Bern."
+
+[meta-title]
+other = "Unihack - Der Hackathon von Studierenden für alle Studierende."
+
+[meta-locale]
+other = "de_CH"

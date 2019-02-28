@@ -7,6 +7,14 @@
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.PostCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     <link rel="icon" type="image/png" href="/logo-32x32.png">
+    <meta property="og:title" content="{{ i18n "meta-title" }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://unihack.ch/IMG_9644_lzn.jpg" />
+    <meta property="og:video" content="https://unihack.ch/banner-video.mp4" />
+    <meta property="og:url" content="https://unihack.ch/" />
+    <meta property="og:description" content="{{ i18n "meta-description" }}" />
+    <meta property="og:locale" content="{{ i18n "meta-locale" }}" />
+    <meta property="og:site_name" content="unihack.ch" />
   </head>
   <body>
     {{ block "main" . }} {{ end }}
