@@ -7,6 +7,7 @@ fixedFooter: false
 
 ![AdNovum Logo](/AdNovum_Logo-CMYK.svg)
 ![M&S Logo](/M&S\ \(Zusatz\).svg)
+![inpeek](/inpeek.svg)
 
 ## Media Partner
 

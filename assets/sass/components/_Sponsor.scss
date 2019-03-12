@@ -1,0 +1,10 @@
+
+.Sponsor {
+  padding: 2em 0;
+  img {
+    width: 100%;
+    max-height: $maxImgHeight;
+    max-width: $maxImgWidth;
+    min-height: 8em;
+  }
+}
