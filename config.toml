@@ -1,6 +1,7 @@
 baseURL = "https://unihack.ch"
 languageCode = "en-us"
 title = "UniHack"
+staticDir = ["static"]
 DefaultContentLanguage = "de"
 
 [languages]
