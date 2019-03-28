@@ -71,3 +71,6 @@ other = "de_CH"
 
 [register]
 other = "Registrieren"
+
+[registration-closed]
+other = "Die Registrierung ist geschlossen. Falls du noch teilnehmen möchtest, sende uns bitte eine Email an <a class='Registration-Button-Link' href='mailto:unihack@fsmib.ch'>unihack@fsmib.ch</a>."

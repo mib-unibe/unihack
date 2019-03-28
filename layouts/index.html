@@ -25,7 +25,7 @@
                 </header>
                 {{ .Content }}
                 <div class="Registration">
-                    <a href="https://goo.gl/forms/vg3vLGHPHXuElmBN2" target="_blank" class="Registration-Button">{{ i18n "register" }}</a>
+                    <p class="Registration-Button Registration-Button--closed">{{ i18n "registration-closed" | safeHTML }}</p>
                 </div>
             {{ end }}
         </div>
