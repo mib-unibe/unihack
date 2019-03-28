@@ -4,7 +4,9 @@
   "description": "This repository contains the website for UNIHACK 2019.",
   "main": "",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "render-presentations": "glob \"**/**/*.presentation.md\" | node_modules/markpress/bin/markpress.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/assert-true/unihack.git"
@@ -17,6 +19,7 @@
   "homepage": "https://github.com/assert-true/unihack#readme",
   "devDependencies": {
     "autoprefixer": "^9.4.7",
+    "markpress": "^4.0.0",
     "postcss-cli": "^6.1.1"
   }
 }
