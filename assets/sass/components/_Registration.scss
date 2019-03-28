@@ -19,3 +19,25 @@
     font-size: 1.5rem;
     text-decoration: none;
 }
+
+.Registration-Button--closed {
+    background: none;
+    border: $BannerTitleColor 3px solid;
+    color: $BannerTitleColor;
+
+    &:hover {
+        background: none;
+        border-color: darken($BannerTitleColor, 10%);
+        color: darken($BannerTitleColor, 10%);
+        > .Registration-Button-Link:not(:hover) {
+            color: darken($BannerTitleColor, 10%);
+        }
+    }
+}
+
+.Registration-Button-Link {
+    color: $BannerTitleColor;
+    &:hover {
+        color: darken($BannerTitleColor, 30%);
+    }
+}
