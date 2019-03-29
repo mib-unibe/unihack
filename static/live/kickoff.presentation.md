@@ -1,20 +1,65 @@
-# Wilkommen zum unihack!
+title: Kickoff
+class: animation-fade
+layout: true
 
-* Wichtiger Punkt
-* Zweitens
-* Und so fort
+<!-- This slide will serve as the base layout for all your slides -->
+.bottom-bar[
+  {{title}}
+]
 
------------------
+---
 
-# Nächste Slide
+class: impact
 
-blabla
+# {{title}}
 
------------------
+---
 
-# We're done
 
-juhee
+[Präsentationen und files](/live)
 
------------------
+---
+
+# Ablauf
+
+* 19:00 Pizza
+* 19:00-19:45 Teambildung und Pycharm installieren 
+* 20:00 Workshops
+* 08:00 Zmorge
+* 16:00 Abschlusspräsentationen mit anschliessendem Apéro
+
+---
+
+#Teambildung
+
+Teamleiter 
+
+
+---
+
+#Pycharm Installation
+
+---
+
+# Challenges
+
+## Roboter mit Line Tracking und Ultraschall
+
+## Roboter mit Webcam
+
+---
+
+
+#Workshops
+
+
+---
+
+Regeln / Organisatorisches
+Raumplan
+
+---
+
+Inpeek
+
 
