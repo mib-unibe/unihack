@@ -61,7 +61,7 @@ class: impact
 
 # Raumplan
 
-![../..//raumplan](../../assets/img/raumplan.png)
+![./raumplan](./raumplan.png)
 
 ---
 
