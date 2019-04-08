@@ -1,0 +1,64 @@
+@import "photoswipe/all";
+
+.the-gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  @extend .Container;
+  margin-top: 0;
+}
+
+.the-gallery__figure {
+  width: 20rem;
+  margin: 1rem;
+  flex-shrink: 0;
+}
+
+.the-gallery__image {
+  width: 100%;
+}
+
+.Boxes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Box {
+  flex-shrink: 0;
+  flex-grow: 0;
+  display: block;
+  width: 45%;
+  text-align: left;
+  font-size: 1.5rem;
+  background: lighten($BannerTitleColor, 10%);
+  border: 1px solid $BannerTitleColor;
+  text-decoration: none;
+}
+
+.Box:hover {
+  display: block;
+  width: 45%;
+  text-align: left;
+  background: lighten($BannerTitleColor, 10%);
+  border: 1px solid $BannerTitleColor;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.Box-Text {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.Box-readMore {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.Button__Link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
