@@ -4,6 +4,9 @@ other = "Beginner"
 [intermediate]
 other = "Intermediate"
 
+[postEventInfo]
+other = "More about the last Unihack."
+
 [advanced]
 other = "Advanced"
 

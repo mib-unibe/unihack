@@ -21,8 +21,9 @@ $fontColor: #555;
 $fontSize: 1em;
 
 // Banner
-$BannerTitleColor: #ff94b2;
+$BannerTitleColor: transparentize(#ff94b2, 0.5);
 $BannerSubTitleColor: $BannerTitleColor;
+$BannerPostTitleColor: #ff94b2;
 $videoOverlayColor: rgba(0, 0, 0, 0.2);
 $FrontpageHamburgerColor: $BannerTitleColor;
 $FrontpageLogoColor: $BannerTitleColor;
