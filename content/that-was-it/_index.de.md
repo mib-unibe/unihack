@@ -1,20 +1,18 @@
 ---
-title: This was Unihack 2019
+title: Das war der Unihack 2019
 ---
 
-Thank you for being part of the unihack 2019! We had a blast and really enjoyed working with all
-the creative, passionate and skilled teams. We definitely hope to see everyone again at the
-next Unihack.
+Danke, dass du am unihack 2019 teilgenommen hast! Es hat uns viel Freude gemacht
+mit so motivierten und talentierten Teams zusammen zu arbeiten. Bereits sind wir
+am planen des nächsten Unihacks. Wir hoffen natürlich, dich auch dort wieder 
+begrüssen zu dürfen.
 
+Der Erfolg des Unihacks ist in grossen Teilen **unseren Sponsoren zu verdanken**.
+Diese haben uns mit leckerer Schockoladen Bytes, beflügenden Getränken, 
+inspirierenden Ansprachen, sowie Mahlzeiten und Hardware unterstützt. Ein 
+spezielles **Dankeschön auch an die Universität Bern**, insbesondere dem Informatik- und Hausdienst die mit Ihrem Einsatz massgeblich zum Erfolg beigetragen haben.
 
-The success of the unihack is **thanks in large part to our sponsors** who supported us with delicious
-chocolate bytes, boosting drinks which gave us wings and inspiring speeches. A special thanks
-goes out to the **University of Bern**, particularly the informatics department and domestic services
-who had a determining influence on the success of this event.
-
-
-Below you find the best snap shots of the event, as well as other resources. Be sure to check
-out the report from uniaktuell!
+Unten findest du die einige Schnappschüsse des Events, die Website vom Roboter manu und den Artikel des uniaktuell. 
 
 
 

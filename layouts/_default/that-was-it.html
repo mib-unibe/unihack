@@ -11,7 +11,7 @@
             <a class="Box-readMore" href="http://www.uniaktuell.unibe.ch/unibe/portal/uniaktuell/content/e760830/e794308/index_ger.html">weiterlesen...</a>
         </div>
         <div class="Box">
-            <a class="Box-readMore" href="{{ .Site.BaseURL }}that-was-it/lama_007/">Manu online!</a>
+            <a class="Box-readMore" href="{{ .Site.BaseURL }}/that-was-it/lama_007/">Manu online!</a>
         </div>
     </div>
 </div>
@@ -22,7 +22,7 @@
     {{ $photoswipedom := resources.Get "js/photoswipe-from-DOM.js" }}
     {{ $jspwsp := slice $photoswipe $photoswipeui $photoswipedom | resources.Concat "js/bundle_photoswipe.js" | resources.Minify | resources.Fingerprint}}
     <script src="{{ $jspwsp.Permalink }}"></script>
-    {{ $images := (slice "IMG_9800_edit.JPG" "IMG_9801.JPG" "IMG_9811_edit.JPG" "IMG_9812.JPG" "IMG_9813_edit.JPG" "IMG_9814.JPG" "IMG_9840.JPG" "IMG_9856.jpg" "IMG_9913.JPG" ) }}
+    {{ $images := (slice "IMG_9800_edit.JPG" "IMG_9801.JPG" "IMG_9811_edit.JPG" "IMG_9812.JPG" "IMG_9813_edit.JPG" "IMG_9814.JPG" "IMG_9840.JPG" "IMG_9841.JPG" "IMG_9913.JPG" ) }}
     <div class="the-gallery" itemscope itemtype="http://schema.org/ImageGallery">
         {{ range $image := $images }}
         <figure class="the-gallery__figure" itemprop="associatedMedia" itemscope
