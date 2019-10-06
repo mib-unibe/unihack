@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frontpages on UniHack</title>
+    <link>https://unihack.ch/en/frontpage/</link>
+    <description>Recent content in Frontpages on UniHack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://unihack.ch/en/frontpage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why be part of the hackathon?</title>
+      <link>https://unihack.ch/en/frontpage/motivation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/frontpage/motivation/</guid>
+      <description>24 hours of fun and teamwork. Meet students from the University of Bern and work together in a team to solve a challenge. You and your team will have 24 hours to bring your ideas together and create your very own Project.
+Get a glimpse of programming in the physical world. Whether you have no previous experience in programming or your an expert, at this event you&amp;rsquo;ll see how your code interacts with the physical world.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UniHack</title>
+    <link>https://unihack.ch/en/</link>
+    <description>Recent content on UniHack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://unihack.ch/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://unihack.ch/en/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/faq/</guid>
+      <description>FAQ Where is it? The hackathon will take place at the UniS of the University of Bern. UniS Schanzenstrasse 1 3012 Bern What is the target audience? What skills do I need? Our hackathon is open for everyone with all degrees of skill.
+When is it? The hackathon starts in the afternoon on 29.03.2019. Detailed information following soon.
+How much does it cost? Thanks to our sponsors students of the University of Bern can take part in the UniHack at no cost.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://unihack.ch/en/impressum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/impressum/</guid>
+      <description>Impressum Fachschaft Mathematik &amp;amp; Informatik Sidlerstrasse 5 3012 Bern
+unihack@fsmib.ch</description>
+    </item>
+    
+    <item>
+      <title>About us</title>
+      <link>https://unihack.ch/en/about/aboutus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/about/aboutus/</guid>
+      <description>We are four motivated students with interests in programming, experimenting and hackathons.
+We want to:
+ Provide a creative environment for interesting and innovative ideas.
+ Connect students from different semesters and studies.
+ Raise the visibility of the computer science study program at the University of Bern.
+  </description>
+    </item>
+    
+    <item>
+      <title>AdNovum</title>
+      <link>https://unihack.ch/en/sponsors/adnovum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/sponsors/adnovum/</guid>
+      <description>They are great</description>
+    </item>
+    
+    <item>
+      <title>Andreas Gsponer</title>
+      <link>https://unihack.ch/en/about/andreas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/about/andreas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Breakfast</title>
+      <link>https://unihack.ch/en/program/breakfast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/program/breakfast/</guid>
+      <description>Morning has broken. Time for breakfast.</description>
+    </item>
+    
+    <item>
+      <title>Dinner</title>
+      <link>https://unihack.ch/en/program/dinner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/program/dinner/</guid>
+      <description>Dinner.</description>
+    </item>
+    
+    <item>
+      <title>Fabio Bertagna</title>
+      <link>https://unihack.ch/en/about/fabio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/about/fabio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Final presentation &amp; Apéro.</title>
+      <link>https://unihack.ch/en/program/end-presentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/program/end-presentation/</guid>
+      <description>End hacking. It&amp;rsquo;s time to present your results and see what other teams have achieved. The event ends with an Apéro.</description>
+    </item>
+    
+    <item>
+      <title>Kickoff Presentation</title>
+      <link>https://unihack.ch/en/program/kickoff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/program/kickoff/</guid>
+      <description>Introduction to the hackathon. Beginn Hacking</description>
+    </item>
+    
+    <item>
+      <title>Lunch</title>
+      <link>https://unihack.ch/en/program/lunch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/program/lunch/</guid>
+      <description>A last meal to get you through the afternoon.</description>
+    </item>
+    
+    <item>
+      <title>M&amp;S</title>
+      <link>https://unihack.ch/en/sponsors/ms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/sponsors/ms/</guid>
+      <description>They are great too</description>
+    </item>
+    
+    <item>
+      <title>Midnight Snack</title>
+      <link>https://unihack.ch/en/program/midnight-snack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/program/midnight-snack/</guid>
+      <description>We&amp;rsquo;ll offer small snack that should get you going through the night.</description>
+    </item>
+    
+    <item>
+      <title>Patrick Hodel</title>
+      <link>https://unihack.ch/en/about/patrick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/about/patrick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sponsoren &amp; Partner</title>
+      <link>https://unihack.ch/en/sponsors/sponsors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/sponsors/sponsors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why be part of the hackathon?</title>
+      <link>https://unihack.ch/en/frontpage/motivation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/frontpage/motivation/</guid>
+      <description>24 hours of fun and teamwork. Meet students from the University of Bern and work together in a team to solve a challenge. You and your team will have 24 hours to bring your ideas together and create your very own Project.
+Get a glimpse of programming in the physical world. Whether you have no previous experience in programming or your an expert, at this event you&amp;rsquo;ll see how your code interacts with the physical world.</description>
+    </item>
+    
+    <item>
+      <title>Workshop 1</title>
+      <link>https://unihack.ch/en/program/workshop1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/program/workshop1/</guid>
+      <description>Workshop 1. Content announced later.</description>
+    </item>
+    
+    <item>
+      <title>Workshop 2</title>
+      <link>https://unihack.ch/en/program/workshop2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/program/workshop2/</guid>
+      <description>Workshop 2. Content announced later.</description>
+    </item>
+    
+    <item>
+      <title>Yannik Dällenbach</title>
+      <link>https://unihack.ch/en/about/yannik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/about/yannik/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

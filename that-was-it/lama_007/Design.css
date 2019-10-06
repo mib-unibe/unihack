@@ -1,0 +1,101 @@
+h1{
+    font-size: x-large;
+    -webkit-margin-after: 5px;
+    -webkit-margin-before: 5px;
+}
+
+.menu-link,h1{
+    color: crimson;
+    font-family: "Helvetica Neue";
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    padding: 5px;
+    background-color: white;
+    border-top: 1px solid crimson;
+    border-bottom: 1px solid crimson;
+
+}
+
+.menu-link {
+    display: block;
+    padding: 8px 16px;
+    height: 100%;
+
+}
+/* Change the link color on hover */
+.menu-link:hover {
+    background-color:crimson;
+    color: white;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+.grid-child {
+    justify-self: stretch;
+}
+
+.child {
+    width: 100px;  /* Or whatever */
+    height: 10px; /* Or whatever */
+    margin: auto;  /* Magic! */
+}
+
+.img-robo {
+    width: 100%;
+}
+
+.img-dash {
+    width: 95vw;
+    margin: auto;
+
+}
+
+#container {display: flex;
+justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#EngineStart {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    /*color: #fff;*/
+    background-color: #DE401F;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#EngineStart:hover {background-color: #DE401F}
+
+#EngineStart:active {
+    background-color: #DE401F;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.story{
+    font-size: large;
+    -webkit-margin-after: 5px;
+    -webkit-margin-before: 5px;
+    color: black;
+    width: 1000px;
+    align: center;
+    font-family: "Helvetica Neue";
+}

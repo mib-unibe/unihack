@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on UniHack</title>
+    <link>https://unihack.ch/en/about/</link>
+    <description>Recent content in Abouts on UniHack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://unihack.ch/en/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About us</title>
+      <link>https://unihack.ch/en/about/aboutus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/about/aboutus/</guid>
+      <description>We are four motivated students with interests in programming, experimenting and hackathons.
+We want to:
+ Provide a creative environment for interesting and innovative ideas.
+ Connect students from different semesters and studies.
+ Raise the visibility of the computer science study program at the University of Bern.
+  </description>
+    </item>
+    
+    <item>
+      <title>Andreas Gsponer</title>
+      <link>https://unihack.ch/en/about/andreas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/about/andreas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabio Bertagna</title>
+      <link>https://unihack.ch/en/about/fabio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/about/fabio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patrick Hodel</title>
+      <link>https://unihack.ch/en/about/patrick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/about/patrick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yannik Dällenbach</title>
+      <link>https://unihack.ch/en/about/yannik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/en/about/yannik/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

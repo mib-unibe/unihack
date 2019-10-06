@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UniHack</title>
+    <link>https://unihack.ch/program/</link>
+    <description>Recent content on UniHack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://unihack.ch/program/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Abendessen</title>
+      <link>https://unihack.ch/program/dinner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/program/dinner/</guid>
+      <description>Gemeinsames Abendessen.</description>
+    </item>
+    
+    <item>
+      <title>Abschlusspräsentation &amp; Apéro.</title>
+      <link>https://unihack.ch/program/end-presentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/program/end-presentation/</guid>
+      <description>ENDE Hacking. Zeit um eure Ergebnisse zu präsentieren und die Resultate der anderen Gruppen zu bestaunen. Der Event endet mit einem Apéro.</description>
+    </item>
+    
+    <item>
+      <title>Frühstück</title>
+      <link>https://unihack.ch/program/breakfast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/program/breakfast/</guid>
+      <description>Zeit für Frühstück.</description>
+    </item>
+    
+    <item>
+      <title>Kickoff Presentation</title>
+      <link>https://unihack.ch/program/kickoff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/program/kickoff/</guid>
+      <description>Begrüssung und Einführung in den Hackathon. START HACKING.</description>
+    </item>
+    
+    <item>
+      <title>Lunch</title>
+      <link>https://unihack.ch/program/lunch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/program/lunch/</guid>
+      <description>Eine letzte Mahlzeit die dich durch den Nachmittag bringt.</description>
+    </item>
+    
+    <item>
+      <title>Midnight Snack</title>
+      <link>https://unihack.ch/program/midnight-snack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/program/midnight-snack/</guid>
+      <description>Ein kleiner Snack der dich für die Nacht stärkt.</description>
+    </item>
+    
+    <item>
+      <title>Workshop 1</title>
+      <link>https://unihack.ch/program/workshop1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/program/workshop1/</guid>
+      <description>Workshop 1. Weitere Informationen folgen.</description>
+    </item>
+    
+    <item>
+      <title>Workshop 2</title>
+      <link>https://unihack.ch/program/workshop2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/program/workshop2/</guid>
+      <description>Workshop 2. Weitere Informationen folgen.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frontpages on UniHack</title>
+    <link>https://unihack.ch/frontpage/</link>
+    <description>Recent content in Frontpages on UniHack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://unihack.ch/frontpage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Warum am UniHack teilnehmen?</title>
+      <link>https://unihack.ch/frontpage/motivation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/frontpage/motivation/</guid>
+      <description>24 Stunden Spass und Teamwork. Lerne Studentinnen und Studenten der Universität Bern kennen und arbeite zusammen in einem Team an der Lösung einer Challenge. 24 Stunden stehen dir und deinem Team zur Verfügung, um eurer Kreativität und euren Ideen freien Lauf zu lassen.
+Erhalte einen Einblick ins Programmieren. Egal ob du bereits erfahren im Programmieren bist oder du noch nie deinen eigenen Code geschrieben hast, am UniHack lernst du deinen Roboter zu programmieren.</description>
+    </item>
+    
+  </channel>
+</rss>

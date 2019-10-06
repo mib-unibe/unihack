@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on UniHack</title>
+    <link>https://unihack.ch/about/</link>
+    <description>Recent content in Abouts on UniHack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://unihack.ch/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Andreas Gsponer</title>
+      <link>https://unihack.ch/about/andreas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/about/andreas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabio Bertagna</title>
+      <link>https://unihack.ch/about/fabio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/about/fabio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patrick Hodel</title>
+      <link>https://unihack.ch/about/patrick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/about/patrick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yannik Dällenbach</title>
+      <link>https://unihack.ch/about/yannik/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/about/yannik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Über uns</title>
+      <link>https://unihack.ch/about/aboutus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unihack.ch/about/aboutus/</guid>
+      <description>Wir sind vier motivierte Studenten mit grossem Interesse am Programmieren, Experimentieren und Hackathons.
+Wir wollen:
+ Ein kreatives Umfeld für interessante und innovative Ideen bereitstellen.
+ Studierenden aus verschiedenen Semestern und Studiengängen die Möglichkeit bieten neue Kontakte zu knüpfen.
+ Sichtbarkeit und Interesse am Informatik-Studium der Universität Bern erhöhen.
+  </description>
+    </item>
+    
+  </channel>
+</rss>
